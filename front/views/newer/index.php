@@ -54,7 +54,6 @@ use yii\helpers\Url;
                 <li><a href="i<?=Url::toRoute('/index/index')?>">首页</a></li>
                 <li><a href="<?=Url::toRoute('/company/index')?>">公司介绍</a></li>
                 <li><a href="<?=Url::toRoute('/information/index')?>">最新资讯</a></li>
-                <li><a href="https://gongyi.meicai.cn/gongyi/pc/gongyi/index.html" target="_blank">最美公益</a></li>
                 <li><a href="<?=Url::toRoute('/job/index')?>" target="_blank">公司招聘</a></li>
                 <li><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></li>
                 <li><a href="<?=Url::toRoute('/download/index')?>">悦动力商城</a></li>
