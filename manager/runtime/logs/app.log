@@ -28667,3 +28667,244 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1474184842.8964
     'REQUEST_TIME' => 1474184842
 ]
+2016-09-27 14:03:16 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /home/smile/mywww/sample/manager/web/assets' 
+
+in /home/smile/mywww/sample/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/smile/mywww/sample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/smile/mywww/sample/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/smile/mywww/sample/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#13 /home/smile/mywww/sample/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2016-09-27 14:03:16 [127.0.0.1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_X_LANTERN_DEVICE_ID' => 'bAuEbGyT'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => 'GjmYTGU6KLWnhMmyGsnGVkJJhv9t0lPYR7IHX4AyzV0qSr5Odlar6E7ZKnFOxCCU'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/52.0.2743.116 Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_HOST' => 'www.mymanager.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.mymanager.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '33584'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/sample/manager/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/sample/manager/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1474956196.5273
+    'REQUEST_TIME' => 1474956196
+]
+2016-09-27 14:03:17 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /home/smile/mywww/sample/manager/web/assets' 
+
+in /home/smile/mywww/sample/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/smile/mywww/sample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/smile/mywww/sample/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/smile/mywww/sample/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#13 /home/smile/mywww/sample/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 [internal function]: yii\log\Logger->flush(true)
+#15 {main}
+2016-09-27 14:03:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'li6e3aps2elvj1gnqcqq3qruv7'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_X_LANTERN_DEVICE_ID' => 'bAuEbGyT'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => 'GjmYTGU6KLWnhMmyGsnGVkJJhv9t0lPYR7IHX4AyzV0qSr5Odlar6E7ZKnFOxCCU'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=li6e3aps2elvj1gnqcqq3qruv7'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/52.0.2743.116 Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_HOST' => 'www.mymanager.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.mymanager.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '33588'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/sample/manager/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/sample/manager/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1474956196.9721
+    'REQUEST_TIME' => 1474956196
+]
+2016-09-27 14:03:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /home/smile/mywww/sample/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('favicon.ico', Array)
+#1 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/smile/mywww/sample/manager/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/smile/mywww/sample/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/smile/mywww/sample/manager/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2016-09-27 14:03:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'li6e3aps2elvj1gnqcqq3qruv7'
+    '_csrf' => 'c24906cdcbc6d2f38312577abd6f9348504e15f184bc9e8d1c97ef74e54ae253a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fNgWYyPmr3c2sUeJ1ZT90xa-B50MY9lJ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_X_LANTERN_DEVICE_ID' => 'bAuEbGyT'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => 'GjmYTGU6KLWnhMmyGsnGVkJJhv9t0lPYR7IHX4AyzV0qSr5Odlar6E7ZKnFOxCCU'
+    'HTTP_REFERER' => 'http://www.mymanager.com/login'
+    'HTTP_COOKIE' => 'PHPSESSID=li6e3aps2elvj1gnqcqq3qruv7; _csrf=c24906cdcbc6d2f38312577abd6f9348504e15f184bc9e8d1c97ef74e54ae253a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fNgWYyPmr3c2sUeJ1ZT90xa-B50MY9lJ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/52.0.2743.116 Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_HOST' => 'www.mymanager.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.mymanager.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '33584'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/sample/manager/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/sample/manager/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1474956197.1204
+    'REQUEST_TIME' => 1474956197
+]
+2016-09-27 14:03:17 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Invalid Configuration) 'yii\base\InvalidConfigException' with message 'The directory is not writable by the Web process: /home/smile/mywww/sample/manager/web/assets' 
+
+in /home/smile/mywww/sample/vendor/yiisoft/yii2/web/AssetManager.php:213
+
+Stack trace:
+#0 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Object.php(107): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\Object->__construct(Array)
+#2 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#3 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /home/smile/mywww/sample/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /home/smile/mywww/sample/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#6 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Application.php(600): yii\di\ServiceLocator->get('assetManager')
+#7 /home/smile/mywww/sample/vendor/yiisoft/yii2/web/View.php(223): yii\base\Application->getAssetManager()
+#8 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/Component.php(130): yii\web\View->getAssetManager()
+#9 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/panels/AssetPanel.php(53): yii\base\Component->__get('assetManager')
+#10 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/LogTarget.php(54): yii\debug\panels\AssetPanel->save()
+#11 /home/smile/mywww/sample/vendor/yiisoft/yii2-debug/LogTarget.php(118): yii\debug\LogTarget->export()
+#12 /home/smile/mywww/sample/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#13 /home/smile/mywww/sample/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#14 /home/smile/mywww/sample/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\log\Logger->flush(true)
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#16 {main}
+2016-09-27 14:03:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'li6e3aps2elvj1gnqcqq3qruv7'
+    '_csrf' => 'c24906cdcbc6d2f38312577abd6f9348504e15f184bc9e8d1c97ef74e54ae253a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fNgWYyPmr3c2sUeJ1ZT90xa-B50MY9lJ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_X_LANTERN_DEVICE_ID' => 'bAuEbGyT'
+    'HTTP_X_LANTERN_AUTH_TOKEN' => 'GjmYTGU6KLWnhMmyGsnGVkJJhv9t0lPYR7IHX4AyzV0qSr5Odlar6E7ZKnFOxCCU'
+    'HTTP_REFERER' => 'http://www.mymanager.com/login'
+    'HTTP_COOKIE' => 'PHPSESSID=li6e3aps2elvj1gnqcqq3qruv7; _csrf=c24906cdcbc6d2f38312577abd6f9348504e15f184bc9e8d1c97ef74e54ae253a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fNgWYyPmr3c2sUeJ1ZT90xa-B50MY9lJ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/52.0.2743.116 Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_HOST' => 'www.mymanager.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'www.mymanager.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '33584'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/smile/mywww/sample/manager/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/smile/mywww/sample/manager/web/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1474956197.1204
+    'REQUEST_TIME' => 1474956197
+]

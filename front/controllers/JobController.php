@@ -1,15 +1,15 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: smile
- * Date: 16-9-14
- * Time: 下午4:17
+ * Date: 16-9-27
+ * Time: 下午3:58
  */
+
 namespace front\controllers;
 
 
-class IndexController extends BaseController
+class JobController extends BaseController
 {
     public function actionIndex()
     {

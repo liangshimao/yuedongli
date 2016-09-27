@@ -9,6 +9,7 @@ $params = array_merge(
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
+    'name' => '悦动力官网-中国饮料驰名商标',
     'bootstrap' => ['log'],
     'controllerNamespace' => 'front\controllers',
     'defaultRoute' => 'index',
@@ -33,8 +34,11 @@ $config = [
             ],
         ],
         'urlManager' => [
+            'class' => 'yii\web\UrlManager',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'suffix' => '.html',
+            'cache' => false,
             'rules' => [
             ],
         ],

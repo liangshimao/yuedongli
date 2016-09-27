@@ -24,7 +24,7 @@ class LoginController extends Controller
         if(Yii::$app->request->isPost){
             $username = Yii::$app->request->post('username');
             $password = Yii::$app->request->post('password');
-            Yii::$app->session->set('userid',$username);
+            Yii::$app->session->set('userId',$username);
             return $this->redirect('/');
         }
 

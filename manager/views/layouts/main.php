@@ -1,12 +1,13 @@
 <?php
 use yii\helpers\Url;
+use yii\helpers\Html;
 ?>
 
 <!doctype html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>助医微讲堂微信后台管理</title>
+    <title><?= Html::encode(Yii::$app->name)?></title>
     <link rel="stylesheet" type="text/css" href="/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
     <script type="text/javascript" src="/js/modernizr.min.js"></script>
