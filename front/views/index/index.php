@@ -18,20 +18,16 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="美菜,美菜网,meicai,云杉美菜,云杉信息,云杉,饭店,生鲜配送,原材料配送,生鲜,原材料,农产品,蔬菜,买菜,刘传军,徐薛胤,窝窝团" >
-    <meta name="description" content="美菜网 - 中国较早，口碑很好的农产品移动电商，美菜网自营涵盖：新鲜水果蔬菜、肉类、冻品、调料、熟食、饮品、日常用品等。专业配送和服务团队，美菜网让全国人民吃上放心菜！">
+    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,饮料">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
 
-    <meta name="keywords" content="美菜,美菜网,meicai,云杉美菜,云杉信息,云杉,饭店,生鲜配送,原材料配送,生鲜,原材料,农产品,蔬菜,买菜,刘传军,徐薛胤,窝窝团" >
-    <meta name="description" content="美菜网 - 中国较早，口碑很好的农产品移动电商，美菜网自营涵盖：新鲜水果蔬菜、肉类、冻品、调料、熟食、饮品、日常用品等。专业配送和服务团队，美菜网让全国人民吃上放心菜！">
+    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,饮料">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicaicn/wp-content/images/favicon.ico">
     <title>悦动力-中国饮料的领导者</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <script src="/js/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/mian.js"></script>
-    <script src="/js/html5media.min.js"></script>
     <link href="/css/style.css" rel="stylesheet">
     <style>
         .nav-width .nav-link a:hover {
@@ -52,13 +48,16 @@ use yii\helpers\Url;
     </ul>
 </div>
 <div class="num_box"  style="z-index: 0">
-    <div class="num" id="page-one"  style="z-index: 0">
-        <div class="block-all"  style="z-index: 0">
-            <div class="video-all" style="z-index: 0">
-
-                <video src="http://image.meicai.cn/meicaicn/wp-content/images/converted.mp4" loop="loop" id="video" autoplay="autoplay"></video>
+    <div class="num" id="page-one">
+        <div class="block-all1" id="page2font"></div>
+        <div class="picture-bar">
+            <div class="bar-content">
+                <ul>
+                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar1.png"></li>
+                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar2.png"></li>
+                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar3.png"></li>
+                </ul>
             </div>
-            <div class="index-text" style="+margin-top:320px" id="page1font"></div>
         </div>
     </div>
     <div class="num" id="page-two">
@@ -105,7 +104,7 @@ use yii\helpers\Url;
                 <div class="table-cen">
                     <div class="p">
                         <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-code.png" style="padding:2px; background:#fff">
-                        <div class="code-text">美菜品牌</div>
+                        <div class="code-text">悦动力品牌</div>
                     </div>
                 </div>
                 <div class="table-cen">
@@ -130,11 +129,11 @@ use yii\helpers\Url;
             </div>
             <div class="footer-al">
                 <div class="footer">
-                    <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于美菜</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
-                    <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入美菜</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
+                    <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于悦动力</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
+                    <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入悦动力</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
                     <p><span>帮助</span><br/><a href="<?=Url::toRoute('/newer/index')?>">新手指南</a><br/><a href="<?=Url::toRoute('/newer/index')?>">常见问题</a></p>
                     <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
-                    <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="http://image.meicai.cn/meicaicn/wp-content/images/cert.png"></a></p>
+                    <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
                 </div>
             </div>
         </div>
@@ -163,7 +162,10 @@ use yii\helpers\Url;
     </div>
 </nav>
 
-
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/mian.js"></script>
+<script src="/js/html5media.min.js"></script>
 <script type="text/javascript" src="/js/scroll.js" ></script>
 <script type="text/javascript" src="/js/jquery.mousewheel.js" ></script>
 <script>

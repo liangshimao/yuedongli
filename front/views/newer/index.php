@@ -18,18 +18,15 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="美菜,美菜网,meicai,云杉美菜,云杉信息,云杉,饭店,生鲜配送,原材料配送,生鲜,原材料,农产品,蔬菜,买菜,刘传军,徐薛胤,窝窝团" >
-    <meta name="description" content="美菜网 - 中国较早，口碑很好的农产品移动电商，美菜网自营涵盖：新鲜水果蔬菜、肉类、冻品、调料、熟食、饮品、日常用品等。专业配送和服务团队，美菜网让全国人民吃上放心菜！">
+    <meta name="keywords" content="" >
+    <meta name="description" content="">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
-    <meta name="keywords" content="美菜,美菜网,meicai,云杉美菜,云杉信息,云杉,饭店,生鲜配送,原材料配送,生鲜,原材料,农产品,蔬菜,买菜,刘传军,徐薛胤,窝窝团" >
-    <meta name="description" content="美菜网 - 中国较早，口碑很好的农产品移动电商，美菜网自营涵盖：新鲜水果蔬菜、肉类、冻品、调料、熟食、饮品、日常用品等。专业配送和服务团队，美菜网让全国人民吃上放心菜！">
+    <meta name="keywords" content="" >
+    <meta name="description" content="">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicaicn/wp-content/images/favicon.ico">
     <title>帮助-悦动力-中国饮料驰名商标</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <script src="/js/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/mian.js"></script>
     <link href="/css/style.css" rel="stylesheet">
     <script>
         var _hmt = _hmt || [];
@@ -40,8 +37,8 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="美菜,美菜网,meicai,云杉美菜,云杉信息,云杉,饭店,生鲜配送,原材料配送,生鲜,原材料,农产品,蔬菜,买菜,刘传军,徐薛胤,窝窝团" >
-    <meta name="description" content="美菜网 - 中国较早，口碑很好的农产品移动电商，美菜网自营涵盖：新鲜水果蔬菜、肉类、冻品、调料、熟食、饮品、日常用品等。专业配送和服务团队，美菜网让全国人民吃上放心菜！">
+    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,饮料">
     <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
 </head>
 
@@ -64,13 +61,13 @@ use yii\helpers\Url;
 
 <div class="help-ash" id="a-1">
     <div class="help-mc">
-        <h3>如何下载美菜</h3>
+        <h3>如何下载悦动力</h3>
         <div class="list-down">
-            <p class="text">1.打开手机商城，输入关键词“美菜”，搜索。</p>
+            <p class="text">1.打开手机商城，输入关键词“悦动力”，搜索。</p>
             <p class="picture"><img src="http://image.meicai.cn/meicaicn/wp-content/images/help-1.png" width="230"></p>
         </div>
         <div class="list-down">
-            <p class="text">2.选择“美菜商城”，点击获取下载美菜APP。</p>
+            <p class="text">2.选择“悦动力商城”，点击获取下载悦动力APP。</p>
             <p class="picture"><img src="http://image.meicai.cn/meicaicn/wp-content/images/help-2.png" width="230"></p>
         </div>
         <div class="clear"></div>
@@ -81,15 +78,15 @@ use yii\helpers\Url;
     <div class="help-mc">
         <h3>注册与登录</h3>
         <div class="list-down">
-            <p class="text height-a">如果您有美菜账号，在进入app后，点击“我的”，进入个人中心页面，如下图所示：</p>
+            <p class="text height-a">如果您有悦动力账号，在进入app后，点击“我的”，进入个人中心页面，如下图所示：</p>
             <p class="picture"><img src="http://image.meicai.cn/meicaicn/wp-content/images/help-3.png" width="230"></p>
         </div>
         <div class="list-down">
-            <p class="text height-a">点击“未登录账号，进入登录页面。可以选择手机验证码登录或者美菜账号登录。如下图所示：</p>
+            <p class="text height-a">点击“未登录账号，进入登录页面。可以选择手机验证码登录或者悦动力账号登录。如下图所示：</p>
             <p class="picture"><img src="http://image.meicai.cn/meicaicn/wp-content/images/help-4.png" width="230"></p>
         </div>
         <div class="list-down">
-            <p class="text height-a">如果用户没有美菜账号，则在登录页面点击“注册“，进行注册。如下图所示：</p>
+            <p class="text height-a">如果用户没有悦动力账号，则在登录页面点击“注册“，进行注册。如下图所示：</p>
             <p class="picture"><img src="http://image.meicai.cn/meicaicn/wp-content/images/help-5.png" width="230"><br/><em>注意：没有授权码，可拔打4006-135-135与客服联系。</em></p>
         </div>
 
@@ -101,7 +98,7 @@ use yii\helpers\Url;
     <div class="help-mc">
         <h3>如何订菜</h3>
         <div class="list-down">
-            <p class="text height-b">第一步：进入美菜首页，可通过菜名搜索、开始购买、限时秒杀等进入菜品列表页。或直接点击底部的“全部菜品”，选购菜品。如下图所示：</p>
+            <p class="text height-b">第一步：进入悦动力首页，可通过菜名搜索、开始购买、限时秒杀等进入菜品列表页。或直接点击底部的“全部菜品”，选购菜品。如下图所示：</p>
             <p class="picture"><img src="http://image.meicai.cn/meicaicn/wp-content/images/help-6.png" width="230"></p>
         </div>
         <div class="list-down">
@@ -200,7 +197,7 @@ use yii\helpers\Url;
 
             通常情况下，一张订单只能进行一次退换货操作，为了确保您的权益，请考虑周全后再与我们联系；<br/>
 
-            <b>云杉美菜客服热线：4006-135-135</b>
+            <b>云杉悦动力客服热线：4006-135-135</b>
         </div>
     </div>
 </div>
@@ -209,9 +206,9 @@ use yii\helpers\Url;
     <div class="help-mc">
         <h3>常见问题</h3>
         <div class="suggest">
-            1.美菜目前只面向餐馆客户，暂不开通个人客户购买。<br/>
+            1.悦动力目前只面向餐馆客户，暂不开通个人客户购买。<br/>
 
-            2.美菜的购物车、购买历史、个人中心等功能需要在登陆状态下才能使用，在进行上述操作前，请先确认登陆成功。<br/>
+            2.悦动力的购物车、购买历史、个人中心等功能需要在登陆状态下才能使用，在进行上述操作前，请先确认登陆成功。<br/>
 
             3.在使用过程中如对某项操作有疑问，可随时联系客户经理或客服。客服热线：4006-135-135。
         </div>
@@ -220,12 +217,15 @@ use yii\helpers\Url;
 
 <div class="footer-pull">
     <div class="footer">
-        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于美菜</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
-        <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入美菜</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
+        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于悦动力</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
+        <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入悦动力</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="<?=Url::toRoute('/newer/index')?>">新手指南</a><br/><a href="<?=Url::toRoute('/newer/index')?>">常见问题</a></p>
         <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
-        <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="http://image.meicai.cn/meicaicn/wp-content/images/cert.png"></a></p>
+        <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/mian.js"></script>
 </body>
 </html>

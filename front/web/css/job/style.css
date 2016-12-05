@@ -15,7 +15,7 @@ em,i{font-style: normal; }
 
 .nav-header-bot{
     width: 100%;
-    border-bottom: 2px solid #4ACB81;
+    border-bottom: 2px solid #6DB53E;
     background:#fff;
 }
 .nav-width-bot{
@@ -45,11 +45,11 @@ em,i{font-style: normal; }
     color:#757575;
 }
 .nav-width-bot .nav-link a:hover{
-    color:#45BA77;
+    color:#6DB53E;
     text-decoration: none;
 }
 .nav-width-bot .nav-link .acitve a{
-    color:#45BA77;
+    color:#6DB53E;
 }
 
 .recruit-bg{
@@ -172,7 +172,7 @@ em,i{font-style: normal; }
 }
 
 .cloud-bot-1{
-    background: url(../../images/cloud-bot-1.png) no-repeat center top;
+    background: url(../images/cloud-bot-1.png) no-repeat center top;
     width: 100%;
     height: 156px;
     position: absolute;
@@ -185,7 +185,7 @@ em,i{font-style: normal; }
     padding-top: 120px;
 }
 .cloud-bot-2{
-    background: url(../../images/cloud-bot-2.png) no-repeat center top;
+    background: url(../images/cloud-bot-2.png) no-repeat center top;
     width: 100%;
     height: 257px;
     position: absolute;
@@ -262,11 +262,11 @@ em,i{font-style: normal; }
     text-decoration: none;
 }
 .mian-nav ul li a:hover{
-    color: #45BA77;
+    color: #6DB53E;
     text-decoration: underline;
 }
 .mian-nav ul li.active{
-    background: #3FBE79;
+    background: #6DB53E;
 }
 .mian-nav ul li.active a{
     color: #fff;
@@ -352,7 +352,7 @@ em,i{font-style: normal; }
     text-decoration: none;
 }
 .post-list ul li a:hover{
-    color: #45BA77;
+    color: #6DB53E;
     text-decoration: underline;
 }
 
@@ -721,7 +721,7 @@ em,i{font-style: normal; }
     text-decoration: none;
 }
 .interaction ul li a:hover{
-    color: #45BA77;
+    color: #6DB53E;
     text-decoration: underline;
 }
 .interaction ul li.icon-a{
@@ -779,14 +779,14 @@ em,i{font-style: normal; }
     margin-top: 26px;
 }
 .life-info .head .act-yeas{
-    background: url(../../images/name-bg-2.png) no-repeat;
+    background: url(../images/name-bg-2.png) no-repeat;
     background-size: 133px 38px;
     width: 133px;
     height: 38px;
     float: left;
 }
 .life-info .head .staff{
-    background: url(../../images/name-bg-3.png) no-repeat;
+    background: url(../images/name-bg-3.png) no-repeat;
     background-size: 128px 38px;
     width: 128px;
     height: 38px;
@@ -794,7 +794,7 @@ em,i{font-style: normal; }
 }
 
 .life-info .head .commonweal{
-    background: url(../../images/name-bg-4.png) no-repeat;
+    background: url(../images/name-bg-4.png) no-repeat;
     background-size: 132px 38px;
     width: 132px;
     height: 38px;
@@ -813,7 +813,7 @@ em,i{font-style: normal; }
     text-decoration: none;
 }
 .life-info .head .website a:hover{
-    color: #45BA77;
+    color: #6DB53E;
     text-decoration: underline;
 }
 .none-bot{

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>美菜2017官方校招</title>
+    <title>悦动力2017官方校招</title>
     <link href="/css/job/bootstrap.min.css" rel="stylesheet">
     <script src="/js/job/jquery-1.10.2.min.js"></script>
     <script src="/js/job/bootstrap.min.js"></script>
@@ -20,8 +20,8 @@
             <ul>
                 <li class="acitve"><a href="index.html">首页</a></li>
                 <li><a href="post.html">应届生招聘</a></li>
-                <li><a href="company.html">走进美菜</a></li>
-                <li><a href="life.html">人在美菜</a></li>
+                <li><a href="company.html">走进悦动力</a></li>
+                <li><a href="life.html">人在悦动力</a></li>
             </ul>
         </div>
     </div>
@@ -64,7 +64,7 @@
         </a>
 
     </div>
-    <div class="cloud-bot-1">@2016 云杉美菜 版权所有</div>
+    <div class="cloud-bot-1">@2016 云杉悦动力 版权所有</div>
     <div class="cloud-bot-2"></div>
 </div>
 
