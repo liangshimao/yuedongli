@@ -25,8 +25,8 @@ use yii\helpers\Url;
 <div id="topheih" class="blank40" style="height: 141.5px;"></div>
 <div align="center">
     <div class="ltoplog">
-        <img src="/images/logo.png" align="absmiddle" style="margin-right:15px;" height="80" width="80">
-        <b style="font-size:22px">汇金行办公系统</b></div>
+        <img src="/images/logo.png" align="absmiddle" style="margin-right:15px;" height="60" width="60">
+        <b style="font-size:22px">优悦佳品后台管理系统</b></div>
     <div class="blank30"></div>
     <div class="lmaisft">
 
@@ -56,8 +56,7 @@ use yii\helpers\Url;
 
     <div class="blank20"></div>
     <div align="center" style="height:30px;line-height:30px;color:#555555">
-        Copyright &copy;2016 汇金行办公系统 &nbsp; - &nbsp;
-        技术支持：汇金行PHP团队
+        Copyright &copy;2016 优悦佳品后台管理系统 &nbsp;&nbsp;
     </div>
 
 </div>

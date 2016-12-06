@@ -12,7 +12,7 @@ use common\components\Tools;
                     <tbody>
                     <tr>
                         <td style="padding:0px 10px;"><img src="/images/xh829.png" height="34" width="34"></td>
-                        <td style="font-size:18px;padding-right:20px"><b>汇金行办公系统</b></td>
+                        <td style="font-size:18px;padding-right:20px"><b>优悦佳品后台管理系统</b></td>
                     </tr>
                     </tbody>
                 </table>
