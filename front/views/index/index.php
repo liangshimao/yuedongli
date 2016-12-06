@@ -20,12 +20,12 @@ use yii\helpers\Url;
     </script>
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
 
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicaicn/wp-content/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
     <title>悦动力-中国饮料的领导者</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
@@ -33,6 +33,7 @@ use yii\helpers\Url;
         .nav-width .nav-link a:hover {
             color: #63ac48;
             text-decoration: none;
+        a {text-decoration: none;}
     </style>
 </head>
 
@@ -53,9 +54,9 @@ use yii\helpers\Url;
         <div class="picture-bar">
             <div class="bar-content">
                 <ul>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar1.png"></li>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar2.png"></li>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar3.png"></li>
+                    <li><img src="/images/picture02-bar1.png"></li>
+                    <li><img src="/images/picture02-bar2.png"></li>
+                    <li><img src="/images/picture02-bar3.png"></li>
                 </ul>
             </div>
         </div>
@@ -68,9 +69,9 @@ use yii\helpers\Url;
         <div class="picture-bar">
             <div class="bar-content">
                 <ul>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar1.png"></li>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar2.png"></li>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture02-bar3.png"></li>
+                    <li><img src="/images/picture02-bar1.png"></li>
+                    <li><img src="/images/picture02-bar2.png"></li>
+                    <li><img src="/images/picture02-bar3.png"></li>
                 </ul>
             </div>
         </div>
@@ -80,9 +81,9 @@ use yii\helpers\Url;
         <div class="picture-bar">
             <div class="bar-content">
                 <ul>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture03-bar1.png"></li>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture03-bar2.png"></li>
-                    <li><img src="http://image.meicai.cn/meicaicn/wp-content/images/picture03-bar3.png"></li>
+                    <li><img src="/images/picture02-bar1.png"></li>
+                    <li><img src="/images/picture02-bar2.png"></li>
+                    <li><img src="/images/picture02-bar3.png"></li>
                 </ul>
             </div>
         </div>
@@ -148,15 +149,15 @@ use yii\helpers\Url;
 
 <nav class="nav-header"  style="z-index: 99999999999999999">
     <div class="nav-width">
-        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="http://image.meicai.cn/meicaicn/wp-content/images/logo-green.png" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="/images/logo.png" /></a></div>
         <div class="nav-link">
             <ul>
-                <li><a href="<?=Url::toRoute('/index/index')?>" style="color:#63ac48">首页</a></li>
-                <li><a href="<?=Url::toRoute('/company/index')?>">公司介绍</a></li>
-                <li><a href="<?=Url::toRoute('/information/index')?>">最新资讯</a></li>
-                <li><a href="<?=Url::toRoute('/job/index')?>" target="_blank">公司招聘</a></li>
-                <li><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></li>
-                <li><a href="<?=Url::toRoute('/download/index')?>">悦动力商城</a></li>
+                <li><a href="<?=Url::toRoute('/index/index')?>" style="color:#63ac48;text-decoration: none;">首页</a></li>
+                <li><a href="<?=Url::toRoute('/company/index')?>" style="text-decoration:none;">公司介绍</a></li>
+                <li><a href="<?=Url::toRoute('/information/index')?>" style="text-decoration:none;">最新资讯</a></li>
+                <li><a href="<?=Url::toRoute('/job/index')?>" target="_blank" style="text-decoration:none;">公司招聘</a></li>
+                <li><a href="<?=Url::toRoute('/cooperation/index')?>" style="text-decoration:none;">合作共赢</a></li>
+                <li><a href="<?=Url::toRoute('/download/index')?>" style="text-decoration:none;">悦动力商城</a></li>
             </ul>
         </div>
     </div>

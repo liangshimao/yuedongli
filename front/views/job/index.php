@@ -15,7 +15,7 @@
 <body class="recruit-bg">
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="index.html"><img src="/images/logo-green.png" /></a></div>
+        <div class="logo"><a href="index.html"><img src="/images/logo.png" /></a></div>
         <div class="nav-link">
             <ul>
                 <li class="acitve"><a href="index.html">首页</a></li>

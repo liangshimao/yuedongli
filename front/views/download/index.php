@@ -20,11 +20,11 @@ use yii\helpers\Url;
     </script>
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicaicn/wp-content/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
     <title>下载App-悦动力-中国饮料驰名商标</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <script src="/js/jquery-1.10.2.min.js"></script>
@@ -40,15 +40,15 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,悦动力网,meicai,云杉悦动力,云杉信息,云杉,饭店,生鲜配送,原材料配送,生鲜,原材料,农产品,蔬菜,买菜,刘传军,徐薛胤,窝窝团" >
-    <meta name="description" content="悦动力网 - 中国较早，口碑很好的农产品移动电商，悦动力网自营涵盖：新鲜水果蔬菜、肉类、冻品、调料、熟食、饮品、日常用品等。专业配送和服务团队，悦动力网让全国人民吃上放心菜！">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <meta name="keywords" content="悦动力,悦动力网,优悦佳品,饮料" >
+    <meta name="description" content="悦动力网,悦动力,优悦佳品,饮料">
+    <link rel="shortcut icon" href="/images/youyue.ico">
 </head>
 
 <body>
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="<?=Url::toRoute('/')?>"><img src="http://image.meicai.cn/meicaicn/wp-content/images/logo-green.png" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/')?>"><img src="/images/logo.png" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>

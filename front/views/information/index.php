@@ -20,11 +20,11 @@ use yii\helpers\Url;
     </script>
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicaicn/wp-content/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
     <title>最新资讯-悦动力-中国饮料驰名商标</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
@@ -39,7 +39,7 @@ use yii\helpers\Url;
     </script>
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
 
     <style type="text/css">
         .scroll{ width:1000px; height:210px; margin:30px auto 0 auto; overflow:hidden;}
@@ -63,7 +63,7 @@ use yii\helpers\Url;
 <body>
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="http://image.meicai.cn/meicaicn/wp-content/images/logo-green.png" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="/images/logo.png" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>
