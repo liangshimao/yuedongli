@@ -28,7 +28,7 @@ use common\components\Tools;
     </table>
 </div>
 <div class="topcenter" align="right">
-    <span id="indexexit">&nbsp;<a href="/login/loginout"> <i style="color:#fff" class="glyphicon glyphicon-log-in"></i></a></span>
+    <span id="indexexit">&nbsp;<a href="<?=Url::toRoute('/login/logout')?>"> <i style="color:#fff" class="glyphicon glyphicon-log-in"></i></a></span>
     <span id="indexuserl" status="0">
         <div class="rockmenu" style="display: none">
             <div class="rockmenuli">
@@ -66,11 +66,11 @@ use common\components\Tools;
                         <span class="caret caret-upc"></span>
                     </div>
                     <div class="menulist" style="">
-                        <div class="menutwo" data-url="" name="userlist">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/basic/user/index')?>" name="userlist">
                             <i class="glyphicon glyphicon-user"></i>
                             用户列表
                         </div>
-                        <div class="menutwo" data-url="" name="personal">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/basic/user/person')?>" name="personal">
                             <i class="glyphicon glyphicon-heart"></i>
                             个人信息
                         </div>
@@ -83,15 +83,15 @@ use common\components\Tools;
                         <span class="caret caret-upc"></span>
                     </div>
                     <div class="menulist" style="">
-                        <div class="menutwo" data-url="" name="banner">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/banner/index')?>" name="banner">
                             <i class="glyphicon  glyphicon-film"></i>
                             轮播图
                         </div>
-                        <div class="menutwo" data-url="" name="logo">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/logo/index')?>" name="logo">
                             <i class="glyphicon glyphicon-zoom-in"></i>
                             logo管理
                         </div>
-                        <div class="menutwo" data-url="" name="ico">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/ico/index')?>" name="ico">
                             <i class="glyphicon  glyphicon-zoom-out"></i>
                             ico管理
                         </div>

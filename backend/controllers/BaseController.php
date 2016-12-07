@@ -7,16 +7,17 @@
  * Time: 下午4:18
  */
 namespace backend\controllers;
+use backend\components\ShowMessage;
 use yii\web\Controller;
 use Yii;
+use yii\helpers\Url;
 class BaseController extends Controller
 {
-    //总的redis对象
     public $cache;
     public $request;
     public $session;
     public $userid;
-    public $username;
+    public $name;
     public $realname;
     public $datetime;
 
@@ -31,10 +32,11 @@ class BaseController extends Controller
         $this->session = Yii::$app->session;
 
         $this->userid = $this->session->get('userid');
-//        if(empty($this->userid)){
-//            ShowMessage::info('您还没有登陆！',Url::toRoute('/login/login'),1000);
-//        }
-        $this->username = $this->session->get('username');
+        $this->name = $this->session->get('name');
+        $this->realname = $this->session->get('realname');
+        if(empty($this->userid)){
+            ShowMessage::info('您还没有登陆！',Url::toRoute('/login/index'),1000);
+        }
         $this->datetime = date('Y-m-d H:i:s');
     }
 }

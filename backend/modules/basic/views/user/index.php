@@ -1,6 +1,6 @@
 <?php
 use yii\helpers\Url;
-use backend\widgets\GoLinkPager;
+use backend\components\widgets\GoLinkPager;
 
 ?>
 <link href="/css/form.css" rel="stylesheet">
@@ -16,7 +16,6 @@ use backend\widgets\GoLinkPager;
             <button class="btn btn-default" id="btnSearch" type="button" onclick="add()"><i class="glyphicon glyphicon-plus-sign"></i> 新增</button>
         </div>
     </form>
-
 </div>
 
 <table class="table table-bordered table-striped table-hover table-condensed">
@@ -29,56 +28,44 @@ use backend\widgets\GoLinkPager;
         <th>状态</th>
         <th>注册时间</th>
         <th>最后登录时间</th>
+        <th>登陆IP</th>
         <th>操作</th>
     </tr>
     </thead>
     <tbody>
-    <?php foreach ($info as $val): ?>
+    <?php $k=($pages->limit) * ($pages->page);foreach ($info as $val): ?>
         <tr>
-            <td><?= $val->id; ?></td>
-            <td><?= $val->username; ?></td>
+            <td><?= ++$k; ?></td>
+            <td><?= $val->name; ?></td>
             <td><?= $val->realname; ?></td>
             <td><?= $val->mobile; ?></td>
-            <td><?php echo $val->status == 0 ? '<i class="glyphicon glyphicon-ok-sign font-green">' : '<i class="glyphicon glyphicon-remove-sign font-red">' ?></td>
+            <td><?php echo $val->status == 1 ? '<i class="glyphicon glyphicon-ok-sign font-green">' : '<i class="glyphicon glyphicon-remove-sign font-red">' ?></td>
             <td><?= $val->add_time; ?></td>
             <td><?= $val->login_time; ?></td>
+            <td><?= $val->ip; ?></td>
             <td>
                 <a class="btn btn-warning buttonbtn btn-info button"
-                   href="javascript:window.parent.edit(1,'修改用户','<?php echo Url::toRoute(['/sys/user/edit', 'id' => $val->id]); ?>', 600, 500)"><i
+                   href="javascript:window.parent.edit(1,'修改用户信息','<?php echo Url::toRoute(['/basic/user/edit', 'id' => $val->id]); ?>', 600, 300)"><i
                         class="glyphicon glyphicon-edit"></i> 修改</a>
                 <a class="btn btn-danger button"
-                   href="javascript:confirmurl('<?= Url::toRoute(['/sys/user/delete', 'id' => $val->id]); ?>', '确定要刪除吗?')"><i
-                        class="glyphicon glyphicon-trash"></i> 删除</a>
+                   href="javascript:confirmurl('<?= Url::toRoute(['/basic/user/delete', 'id' => $val->id]); ?>', '确定要刪除<?=$val->name?>吗?')"><i
+                        class="glyphicon glyphicon-trash"></i>删除</a>
             </td>
         </tr>
     <?php endforeach; ?>
     </tbody>
 </table>
 <div class="pull-right">
-    <?php echo GoLinkPager::widget(['pagination' => $pages]);?>
+    <?php echo GoLinkPager::widget(['pagination' => $pages,'go' => false]);?>
 </div>
 
 <script type="text/javascript">
     /**
      * 添加用户
      */
-    function add() {
-        window.top.art.dialog({
-                title: '添加用户',
-                id: 'add',
-                iframe: '<?php echo Url::toRoute('/sys/user/add'); ?>',
-                width: '600px',
-                height: '500px'
-            },
-            function () {
-                var d = window.top.art.dialog({id: 'add'}).data.iframe;
-                var form = d.document.getElementById('dosubmit').click();
-                return false;
-            },
-            function () {
-                window.top.art.dialog({id: 'add'}).close()
-            }
-        );
+    function add()
+    {
+        omnipotent('edit','<?=Url::toRoute('/basic/user/add')?>', '添加用户', 600, 350, 0);
     }
 
 </script>

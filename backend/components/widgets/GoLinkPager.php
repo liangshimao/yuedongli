@@ -7,7 +7,7 @@
  * @date Nov 29, 2016 1:50:14 PM
  */
 
-namespace backend\widgets;
+namespace backend\components\widgets;
 
 use yii\widgets\LinkPager;
 use yii\helpers\Html;

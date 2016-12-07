@@ -3,7 +3,7 @@
 /**
  * 功能描述:信息提示
  */
-namespace common\components\library;
+namespace backend\components;
 
 class ShowMessage
 {
