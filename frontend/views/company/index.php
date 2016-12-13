@@ -91,7 +91,7 @@ use yii\helpers\Url;
     <div class="history">
         <h3><span>发展历程</span>／History</h3>
 
-        <table style="margin-top:30px;background-repeat: no-repeat;  background-position:156px 6px; background-image:url(/images/line.jpg); ">
+        <table style="margin-top:20px;background-repeat: no-repeat;  background-position:156px 6px; background-image:url(/images/line.jpg); ">
             <tr>
                 <td style="font-size: 18px;color: #45BA77;padding-right:30px">2016年 >></td>
                 <td>8月</td>
@@ -99,23 +99,23 @@ use yii\helpers\Url;
             </tr>
             <tr>
                 <td></td>
-                <td style="padding-top:20px;">2月</td>
-                <td style="padding-top:20px;padding-left:35px">北京分公司成立，并相继在华北、华中、西北、东北三省进行了铺市，复购率极高。</td>
+                <td style="padding-top:15px;">2月</td>
+                <td style="padding-top:15px;padding-left:35px">北京分公司成立，并相继在华北、华中、西北、东北三省进行了铺市，复购率极高。</td>
             </tr>
             <tr>
-                <td  style="padding-top:20px;font-size: 18px;color: #45BA77;padding-right:30px">2015年 >></td>
-                <td style="padding-top:20px;">10月</td>
-                <td style="padding-top:20px;padding-left: 35px">北京广东健力宝饮料有限公司达成强强合作，并签署合作协议。</td>
+                <td  style="padding-top:15px;font-size: 18px;color: #45BA77;padding-right:20px">2015年 >></td>
+                <td style="padding-top:15px;">9月</td>
+                <td style="padding-top:15px;padding-left: 35px">北京广东健力宝饮料有限公司达成强强合作，并签署合作协议。</td>
             </tr>
             <tr>
                 <td></td>
-                <td style="padding-top:0;">9月</td>
+                <td style="padding-top:0;">8月</td>
                 <td style="padding-top:15px;padding-left:35px">优悦佳品旗下“悦动力品牌”330ml果味产品上市。<br/>
                     产品热卖后相继又在山西地区进行试点，受到消费者喜爱。</td>
             </tr>
             <tr>
                 <td></td>
-                <td style="padding-top:30px;">8月</td>
+                <td style="padding-top:25px;">7月</td>
                 <td style="padding-left: 35px;padding-top:25px;">投资500万元人民币新疆（北京）优悦佳品饮料有限公司成立。<br/>
                 </td>
             </tr>
