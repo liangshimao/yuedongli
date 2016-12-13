@@ -101,38 +101,38 @@ use yii\helpers\Url;
             </div>
         </div>-->
         <div class="qr-code-al">
-            <div class="qr-code">
-                <div class="table-cen">
-                    <div class="p">
-                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-code.png" style="padding:2px; background:#fff">
-                        <div class="code-text">悦动力品牌</div>
-                    </div>
-                </div>
-                <div class="table-cen">
-                    <div class="p p2">
-                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-wb.png">
-                        <div class="code-text">关注微博</div>
-                    </div>
-                </div>
-                <div class="table-cen">
-                    <div class="p p3">
-                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-app.png">
-                        <div class="code-text">商城app</div>
-                    </div>
-                </div>
-                <div class="table-cen none">
-                    <div class="p p4">
-                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-wx.png">
-                        <div class="code-text">微信商城</div>
-                    </div>
-                </div>
-
-            </div>
+<!--            <div class="qr-code">-->
+<!--                <div class="table-cen">-->
+<!--                    <div class="p">-->
+<!--                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-code.png" style="padding:2px; background:#fff">-->
+<!--                        <div class="code-text">悦动力品牌</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="table-cen">-->
+<!--                    <div class="p p2">-->
+<!--                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-wb.png">-->
+<!--                        <div class="code-text">关注微博</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="table-cen">-->
+<!--                    <div class="p p3">-->
+<!--                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-app.png">-->
+<!--                        <div class="code-text">商城app</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="table-cen none">-->
+<!--                    <div class="p p4">-->
+<!--                        <img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-wx.png">-->
+<!--                        <div class="code-text">微信商城</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
             <div class="footer-al">
                 <div class="footer">
-                    <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于悦动力</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
-                    <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入悦动力</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
-                    <p><span>帮助</span><br/><a href="<?=Url::toRoute('/newer/index')?>">新手指南</a><br/><a href="<?=Url::toRoute('/newer/index')?>">常见问题</a></p>
+                    <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
+                    <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
+                    <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
                     <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
                     <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
                 </div>
@@ -154,8 +154,8 @@ use yii\helpers\Url;
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>" style="color:#63ac48;text-decoration: none;">首页</a></li>
                 <li><a href="<?=Url::toRoute('/company/index')?>" style="text-decoration:none;">公司介绍</a></li>
-                <li><a href="<?=Url::toRoute('/information/index')?>" style="text-decoration:none;">最新资讯</a></li>
-                <li><a href="<?=Url::toRoute('/job/index')?>" target="_blank" style="text-decoration:none;">公司招聘</a></li>
+<!--                <li><a href="--><?//=Url::toRoute('/information/index')?><!--" style="text-decoration:none;">最新资讯</a></li>-->
+                <li><a href="<?=Url::toRoute('/job/index')?>" style="text-decoration:none;">公司招聘</a></li>
                 <li><a href="<?=Url::toRoute('/cooperation/index')?>" style="text-decoration:none;">合作共赢</a></li>
                 <li><a href="<?=Url::toRoute('/download/index')?>" style="text-decoration:none;">悦动力商城</a></li>
             </ul>

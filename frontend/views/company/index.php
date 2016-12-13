@@ -50,8 +50,8 @@ use yii\helpers\Url;
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>
                 <li class="active"><a href="<?=Url::toRoute('/company/index')?>">公司介绍</a></li>
-                <li><a href="<?=Url::toRoute('/information/index')?>">最新资讯</a></li>
-                <li><a href="<?=Url::toRoute('/job/index')?>" target="_blank">公司招聘</a></li>
+<!--                <li><a href="--><?//=Url::toRoute('/information/index')?><!--">最新资讯</a></li>-->
+                <li><a href="<?=Url::toRoute('/job/index')?>">公司招聘</a></li>
                 <li><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></li>
                 <li><a href="<?=Url::toRoute('/download/index')?>">悦动力商城</a></li>
             </ul>
@@ -144,19 +144,19 @@ use yii\helpers\Url;
         </div>
         <div class="meicai-three">
             <div class="block sm">
-                <div class="title">悦动力使命</div>
+                <div class="title">优悦使命</div>
                 <div class="present">
                     <p class="p-in-a">让老百姓生活更简单</p>
                 </div>
             </div>
             <div class="block yj">
-                <div class="title">悦动力愿景</div>
+                <div class="title">优悦愿景</div>
                 <div class="present">
                     <p class="p-in-b">让天下的餐厅没有难做的生意<br/>为8亿农民谋幸福<br/>让13亿中国人吃上放心菜<br/>共创快乐云杉，一路欢笑100年</p>
                 </div>
             </div>
             <div class="block jzg">
-                <div class="title">悦动力价值观</div>
+                <div class="title">优悦价值观</div>
                 <div class="present">
                     <p class="p-in-c">客户第一：客户是衣食父母<br/>团结合作：责任担当，开放分享<br/>拥抱变化：勇于变化，大胆创新<br/>诚信：言行坦荡，表里如一<br/>坚定：坚持梦想，永不言弃<br/>敬业：专业专注，全力以赴</p>
                 </div>
@@ -175,9 +175,9 @@ use yii\helpers\Url;
 </div>
 <div class="footer-pull">
     <div class="footer">
-        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于悦动力</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
-        <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入悦动力</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
-        <p><span>帮助</span><br/><a href="<?=Url::toRoute('/newer/index')?>">新手指南</a><br/><a href="<?=Url::toRoute('/newer/index')?>">常见问题</a></p>
+        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
+        <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
+        <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
         <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
         <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>

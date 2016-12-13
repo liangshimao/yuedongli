@@ -240,8 +240,8 @@ em,i{font-style: normal; }
 }
 
 .Bitmap-a{
-    background: url(../images/Bitmap-01.jpg) no-repeat center top;
-    height: 360px;
+    background: url(../../images/job.png) no-repeat center top;
+    height: 300px;
 }
 .mian-all{
     width: 1000px;
@@ -356,14 +356,14 @@ em,i{font-style: normal; }
     text-decoration: underline;
 }
 
-.footer{
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-    background: #E8E8E8;
-    text-align: center;
-    margin-top: 20px;
-}
+/*.footer{*/
+    /*width: 100%;*/
+    /*height: 80px;*/
+    /*line-height: 80px;*/
+    /*background: #E8E8E8;*/
+    /*text-align: center;*/
+    /*margin-top: 20px;*/
+/*}*/
 
 .post-js{
     width: 1000px;
@@ -436,14 +436,14 @@ em,i{font-style: normal; }
 }
 .problem-list .rubric .right{
     float: right;
-    background: url(../images/ub-arrow.png) no-repeat;
+    background: url(../../images/ub-arrow.png) no-repeat;
     background-size: 18px 8px;
     width: 18px;
     height: 8px;
     margin: 19px 12px 0 0;
 }
 .problem-list .rubric .right-up{
-    background: url(../images/up-arrow.png) no-repeat;
+    background: url(../../images/up-arrow.png) no-repeat;
     background-size: 18px 8px;
 }
 .problem-list .answer{

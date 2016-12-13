@@ -15,4 +15,12 @@ class JobController extends BaseController
     {
         return $this->renderPartial('index');
     }
+    public function actionFlow()
+    {
+        return $this->renderPartial('flow');
+    }
+    public function actionIssue()
+    {
+        return $this->renderPartial('issue');
+    }
 }

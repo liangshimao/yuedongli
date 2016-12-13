@@ -20,7 +20,7 @@ use yii\helpers\Url;
     </script>
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
 
 
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
@@ -44,7 +44,7 @@ use yii\helpers\Url;
     </script>
     <meta name="keywords" content="悦动力,优悦佳品,饮料" >
     <meta name="description" content="悦动力,优悦佳品,饮料">
-    <link rel="shortcut icon" href="http://image.meicai.cn/meicai/favicon.ico">
+    <link rel="shortcut icon" href="/images/youyue.ico">
 </head>
 
 <body>
@@ -55,8 +55,8 @@ use yii\helpers\Url;
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>
                 <li><a href="<?=Url::toRoute('/company/index')?>">公司介绍</a></li>
-                <li><a href="<?=Url::toRoute('/information/index')?>">最新资讯</a></li>
-                <li><a href="<?=Url::toRoute('/job/index')?>" target="_blank">公司招聘</a></li>
+<!--                <li><a href="--><?//=Url::toRoute('/information/index')?><!--">最新资讯</a></li>-->
+                <li><a href="<?=Url::toRoute('/job/index')?>">公司招聘</a></li>
                 <li class="active"><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></li>
                 <li><a href="<?=Url::toRoute('/download/index')?>">悦动力商城</a></li>
             </ul>
@@ -66,26 +66,26 @@ use yii\helpers\Url;
 
 <div class="cooperation-al">
     <div class="cooperation">
-        <div class="btn-link-rb"><a href="http://supply.yunshanmeicai.com/" target="_blank" class="red">成为悦动力供应商</a><a href="https://mcpop.yunshanmeicai.com/enter/index" target="_blank" class="bule">入驻平台开店</a></div>
+        <div class="btn-link-rb"><a href="javascript:alert('暂未开放，敬请期待！');" class="red">成为优悦供应商</a><a href="javascript:alert('暂未开放，敬请期待！');" class="bule">入驻平台开店</a></div>
     </div>
 </div>
 <div class="map-icon">
-    <div class="bitmap"><img src="http://image.meicai.cn/meicaicn/wp-content/images/bitmap.png"></div>
+    <div class="bitmap"><img src="/images/bitmap.png"></div>
     <div class="bent-list">
         <dl class="d-a">
-            <dt><span><img src="http://image.meicai.cn/meicaicn/wp-content/images/tel-icon.png"></span></dt>
+            <dt><span><img src="/images/tel-icon.png"></span></dt>
             <dd>热线电话<br/>4006-135-135</dd>
         </dl>
         <dl class="d-b">
-            <dt><span><img src="http://image.meicai.cn/meicaicn/wp-content/images/address-icon.png"></span></dt>
+            <dt><span><img src="/images/address-icon.png"></span></dt>
             <dd>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层</dd>
         </dl>
         <dl class="d-c">
-            <dt><span><img src="http://image.meicai.cn/meicaicn/wp-content/images/email-icon.png"></span></dt>
+            <dt><span><img src="/images/email-icon.png"></span></dt>
             <dd>email<br/>hezuo@meicai.cn</dd>
         </dl>
         <dl class="d-d">
-            <dt><span><img src="http://image.meicai.cn/meicaicn/wp-content/images/mc-gzh.png"></span></dt>
+            <dt><span><img src="/images/mc-gzh.png"></span></dt>
             <dd>关注悦动力公众号</dd>
         </dl>
     </div>
@@ -93,9 +93,9 @@ use yii\helpers\Url;
 
 <div class="footer-pull">
     <div class="footer">
-        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">关于悦动力</a><br/><a  href="<?=Url::toRoute('/information/index')?>">公司资讯</a></p>
-        <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>" target="_blank">加入悦动力</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
-        <p><span>帮助</span><br/><a href="<?=Url::toRoute('/newer/index')?>">新手指南</a><br/><a href="<?=Url::toRoute('/newer/index')?>">常见问题</a></p>
+        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
+        <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
+        <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
         <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
         <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
