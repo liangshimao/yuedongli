@@ -29,11 +29,11 @@ use yii\helpers\Url;
     </div>
     <div class="menu-nav">
         <ul class="sum-ment">
-            <li><a href="<?= Url::toRoute('/index/index') ?>">首页</a></li>
-            <li><a href="<?= Url::toRoute('/company/index') ?>">公司介绍</a></li>
-            <li><a href="<?= Url::toRoute('/job/index') ?>">加入我们</a></li>
-            <li><a href="<?= Url::toRoute('/cooperation/index') ?>">合作共赢</a></li>
-            <li><a href="<?= Url::toRoute('/download/index') ?>">优悦商城</a></li>
+            <li><a href="<?= Url::toRoute('/index/index-mobile') ?>">首页</a></li>
+            <li><a href="<?= Url::toRoute('/company/index-mobile') ?>">公司介绍</a></li>
+            <li><a href="<?= Url::toRoute('/job/index-mobile') ?>">加入我们</a></li>
+            <li><a href="<?= Url::toRoute('/cooperation/index-mobile') ?>">合作共赢</a></li>
+            <li><a href="<?= Url::toRoute('/download/index-mobile') ?>">优悦商城</a></li>
         </ul>
     </div>
 

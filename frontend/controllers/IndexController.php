@@ -18,7 +18,11 @@ class IndexController extends BaseController
         }else{
             return $this->renderPartial('index');
         }
-        
+    }
+
+    public function actionIndexMobile()
+    {
+        return $this->renderPartial('mobile_index');
     }
     
     

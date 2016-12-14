@@ -19,4 +19,9 @@ class CooperationController extends BaseController
             return $this->renderPartial('index');
         }
     }
+
+    public function actionIndexMobile()
+    {
+        return $this->renderPartial('mobile_index');
+    }
 }
