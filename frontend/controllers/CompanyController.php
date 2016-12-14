@@ -13,7 +13,11 @@ class CompanyController extends BaseController
 {
     public function actionIndex()
     {
-        return $this->renderPartial('index');
+        if(self::isMobile()){
+            return $this->renderPartial('mobile_index');
+        }else{
+            return $this->renderPartial('index');
+        }
     }
 
 }

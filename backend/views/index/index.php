@@ -102,17 +102,25 @@ use common\components\Tools;
                         <span class="caret caret-upc"></span>
                     </div>
                     <div class="menulist" style="">
-                        <div class="menutwo" data-url="" name="company">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/company/index')?>" name="company">
                             <i class="glyphicon  glyphicon-file"></i>
                             公司介绍
                         </div>
-                        <div class="menutwo" data-url="" name="history">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/history/index')?>" name="history">
                             <i class="glyphicon glyphicon-time"></i>
                             发展历程
                         </div>
-                        <div class="menutwo" data-url="" name="idea">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/idea/index')?>" name="idea">
                             <i class="glyphicon glyphicon-info-sign"></i>
                             公司理念
+                        </div>
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/info/index')?>" name="info">
+                            <i class="glyphicon glyphicon-list-alt"></i>
+                            公司信息
+                        </div>
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/duty/index')?>" name="duty">
+                            <i class="glyphicon glyphicon-credit-card"></i>
+                            职位管理
                         </div>
                     </div>
                 </div>
