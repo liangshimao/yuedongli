@@ -78,11 +78,11 @@ use yii\helpers\Url;
         <div class="home-code">
             <dl>
                 <dt><img src="/images/code-pp.png"</dt>
-                <dd>美菜品牌</dd>
+                <dd>优悦品牌</dd>
             </dl>
             <dl>
                 <dt><img src="/images/code-wb.png"</dt>
-                <dd>美菜官微</dd>
+                <dd>优悦官微</dd>
             </dl>
             <dl>
                 <dt><img src="/images/code-wx.png"</dt>

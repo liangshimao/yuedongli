@@ -63,7 +63,7 @@ use yii\helpers\Url;
                 <li><span class="month">7月</span><span class="text">投资500万元人民币新疆（北京）优悦佳品饮料有限公司成立。</span></li>
             </ul>
             <p class="year-a" style="top:-9%">2016年 >></p>
-            <p class="year-b" style="top:30%">2015年 >></p>
+            <p class="year-b" style="top:32%">2015年 >></p>
         </div>
     </div>
 
