@@ -10,10 +10,11 @@ use yii\helpers\Url;
     <meta content="width=1200" name="viewport">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link href="/css/job/bootstrap.min.css" rel="stylesheet">
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mian.js"></script>
+    <script src="/js/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/mian.js"></script>
     <link href="/css/job/style.css" rel="stylesheet">
+    <link href="/css/join.css" rel="stylesheet">
     <style>
         .footer-pull{
             background: #1e1b29;
@@ -86,16 +87,97 @@ use yii\helpers\Url;
     </div>
     <div class="mian-right">
         <div class="post-list">
-            <div class="thead"><span class="a">职位名称</span><span class="b">职位类别</span><span class="c">工作地点</span><span class="d">招聘人数</span><span class="e">更新时间</span></div>
-            <ul>
-                <li><span class="lat-1"><a href="http://www.hotjob.cn/wt/yunshan/web/index/webPositionN300!getOnePosition?postId=134305&recruitType=1&brandCode=1&importPost=0" target="_blank">客户端开发工程师</a></span><span class="lat-2">技术</span><span class="lat-3">北京</span><span class="lat-4">5</span><span class="lat-5">2016-08-31
-</span></li>
-                <li><span class="lat-1"><a href="http://www.hotjob.cn/wt/yunshan/web/index/webPositionN300!getOnePosition?postId=134304&recruitType=1&brandCode=1&importPost=0" target="_blank">测试工程师</a></span><span class="lat-2">技术</span><span class="lat-3">北京</span><span class="lat-4">2</span><span class="lat-5">2016-08-31</span></li>
-                <li><span class="lat-1"><a href="http://www.hotjob.cn/wt/yunshan/web/index/webPositionN300!getOnePosition?postId=134303&recruitType=1&brandCode=1&importPost=0" target="_blank">数据开发工程师</a></span><span class="lat-2">技术</span><span class="lat-3">北京</span><span class="lat-4">2</span><span class="lat-5">2016-08-31</span></li>
-                <li><span class="lat-1"><a href="http://www.hotjob.cn/wt/yunshan/web/index/webPositionN300!getOnePosition?postId=134302&recruitType=1&brandCode=1&importPost=0" target="_blank">前端开发工程师</a></span><span class="lat-2">技术</span><span class="lat-3">北京</span><span class="lat-4">5</span><span class="lat-5">2016-08-31</span></li>
-                <li><span class="lat-1"><a href="http://www.hotjob.cn/wt/yunshan/web/index/webPositionN300!getOnePosition?postId=134301&recruitType=1&brandCode=1&importPost=0" target="_blank">后端开发工程师</a></span><span class="lat-2">技术</span><span class="lat-3">北京</span><span class="lat-4">10</span><span class="lat-5">2016-08-31</span></li>
-                <li><span class="lat-1"><a href="http://www.hotjob.cn/wt/yunshan/web/index/webPositionN300!getOnePosition?postId=134902&recruitType=1&brandCode=1&importPost=0" target="_blank">商城运营专员</a></span><span class="lat-2">技术</span><span class="lat-3">北京</span><span class="lat-4">5</span><span class="lat-5">2016-08-31</span></li>
-            </ul>
+            <div class="thead"><span class="a" style="width:160px;">职位名称</span></div>
+
+            <div class="hjh-work-detail">
+                <ul>
+                    <li class="detail-li">
+                        <div class="work-warp">
+                            <span class="engineer fl">PHP工程师</span>
+                            <span class="work-detail fr">职位详情<i></i></span>
+                        </div>
+                        <div class="work-con" >
+                            <div class="work-txt">
+                                <span>岗位职责</span>
+                                <ul>
+                                    <li>1、负责公司网站的系统开发；</li>
+                                    <li>2、维护、升级及优化已有的程序（短信平台及图片服务器）；</li>
+                                    <li>3、完成软件系统代码的实现，编写代码注释和开发文档；</li>
+                                    <li>4、根据设计文档或需求说明完成代码编写，调试，测试和维护；</li>
+                                    <li>5、分析并解决软件开发过程中的问题。</li>
+                                </ul>
+                            </div>
+                            <div class="work-txt">
+                                <span>任职要求</span>
+                                <ul>
+                                    <li>1、有PHP两年以上开发经验；</li>
+                                    <li>2、熟悉网站开发、数据库维护、具有独立程序开发能力；</li>
+                                    <li>3、精通PHP+MySql网站开发，掌握：Smart、Cache等常用PHP技术；</li>
+                                    <li>4、有大型网站开发经验优先；</li>
+                                    <li>5、能独立承担系统或者系统模块的设计和开发；</li>
+                                </ul>
+                            </div>
+                            <div class="work-txt">
+                                <ul>
+                                    <li>工作地点：北京总部</li>
+                                </ul>
+                            </div>
+                            <div class="work-txt contact-way1">
+                                <span>联系方式</span>
+                                <ul>
+                                    <li>联系电话：01084982926</li>
+                                    <li>邮箱：hjh_hr@bacic5i5j.com</li>
+                                    <li>联系人：户女士</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="detail-li">
+                        <div class="work-warp">
+                            <span class="engineer fl">PHP工程师</span>
+                            <span class="work-detail fr">职位详情<i></i></span>
+                        </div>
+                        <div class="work-con" >
+                            <div class="work-txt">
+                                <span>岗位职责</span>
+                                <ul>
+                                    <li>1、负责公司网站的系统开发；</li>
+                                    <li>2、维护、升级及优化已有的程序（短信平台及图片服务器）；</li>
+                                    <li>3、完成软件系统代码的实现，编写代码注释和开发文档；</li>
+                                    <li>4、根据设计文档或需求说明完成代码编写，调试，测试和维护；</li>
+                                    <li>5、分析并解决软件开发过程中的问题。</li>
+                                </ul>
+                            </div>
+                            <div class="work-txt">
+                                <span>任职要求</span>
+                                <ul>
+                                    <li>1、有PHP两年以上开发经验；</li>
+                                    <li>2、熟悉网站开发、数据库维护、具有独立程序开发能力；</li>
+                                    <li>3、精通PHP+MySql网站开发，掌握：Smart、Cache等常用PHP技术；</li>
+                                    <li>4、有大型网站开发经验优先；</li>
+                                    <li>5、能独立承担系统或者系统模块的设计和开发；</li>
+                                </ul>
+                            </div>
+                            <div class="work-txt">
+                                <ul>
+                                    <li>工作地点：北京总部</li>
+                                </ul>
+                            </div>
+                            <div class="work-txt contact-way1">
+                                <span>联系方式</span>
+                                <ul>
+                                    <li>联系电话：01084982926</li>
+                                    <li>邮箱：hjh_hr@bacic5i5j.com</li>
+                                    <li>联系人：户女士</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </div>
     <div class="clear"></div>
@@ -105,9 +187,27 @@ use yii\helpers\Url;
         <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
-        <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
+        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</p>
         <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>
+<script>
+    $(function(){
+
+        $(".detail-li .work-detail").each(function () {
+            $(this).click(function () {
+                $(".detail-li .work-detail").removeClass("current");
+                $(".work-con").slideUp();
+                if ($(this).parent().siblings().css("display") == "none") {
+                    $(".detail-li .work-detail").removeClass("current");
+                    $(this).addClass("current").parent().siblings().slideDown("slow");
+                } else {
+                    $(this).removeClass("current").parent().siblings().slideUp("slow");
+                }
+            })
+        });
+    });
+
+</script>
 </body>
 </html>

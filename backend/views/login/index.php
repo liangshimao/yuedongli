@@ -21,7 +21,7 @@ use yii\helpers\Url;
     </style>
 
 </head>
-<body style="background:#66A8E5 url(images/loginbg.jpg) top center no-repeat">
+<body style="background:#66A8E5 url(/images/loginbg.jpg) top center no-repeat">
 <div id="topheih" class="blank40" style="height: 141.5px;"></div>
 <div align="center">
     <div class="ltoplog">

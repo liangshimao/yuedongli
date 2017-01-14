@@ -139,26 +139,26 @@ use yii\helpers\Url;
     <div class="idea">
         <h3><span>公司理念</span>／Company Idea</h3>
         <div class="info">
-            <p class="name">为了一个不变的承诺——让老百姓生活更简单</p>
-            <p class="text">悦动力网前期以中小型餐饮商户为切入点，专注为全国近1000万家餐厅提供一站式、全品类且更低价、更新鲜的餐饮原材料采购服务。为客户提供省时省力、省钱省心的原材料，实现全程无忧的采购。通过对采购、质检、仓储、物流等流程科学精细化的管理，解决农民农产品滞销问题。</p>
+            <p class="name">选择大于努力，成功只因有您。悦动力，悦生活。</p>
+<!--            <p class="text">悦动力网前期以中小型餐饮商户为切入点，专注为全国近1000万家餐厅提供一站式、全品类且更低价、更新鲜的餐饮原材料采购服务。为客户提供省时省力、省钱省心的原材料，实现全程无忧的采购。通过对采购、质检、仓储、物流等流程科学精细化的管理，解决农民农产品滞销问题。</p>-->
         </div>
         <div class="meicai-three">
-            <div class="block sm">
+            <div class="block yj">
                 <div class="title">优悦使命</div>
                 <div class="present">
-                    <p class="p-in-a">让老百姓生活更简单</p>
+                    <p class="p-in-a">让我们的产品随处可见、触手可及<br/>满足和激发消费者的购买欲<br/>使其物超所值</p>
                 </div>
             </div>
             <div class="block yj">
                 <div class="title">优悦愿景</div>
                 <div class="present">
-                    <p class="p-in-b">让天下的餐厅没有难做的生意<br/>为8亿农民谋幸福<br/>让13亿中国人吃上放心菜<br/>共创快乐云杉，一路欢笑100年</p>
+                    <p class="p-in-a">成为中国饮品行业发展最快最好的新势力<br/>成为优悦佳品集团的重要增长引擎<br/>成为最受信赖的雇主品牌<br/></p>
                 </div>
             </div>
             <div class="block jzg">
                 <div class="title">优悦价值观</div>
                 <div class="present">
-                    <p class="p-in-c">客户第一：客户是衣食父母<br/>团结合作：责任担当，开放分享<br/>拥抱变化：勇于变化，大胆创新<br/>诚信：言行坦荡，表里如一<br/>坚定：坚持梦想，永不言弃<br/>敬业：专业专注，全力以赴</p>
+                    <p class="p-in-c">创新：积极参与头脑风暴，欢迎他人从不同的角度提出见解和意见<br/>诚信：在日常生活中行为正直，信任他人并被他人所信任<br/>必胜：在追求目标过程中展现出全力以赴的意志力和行动<br/>尊重：善于欣赏他人的优点和价值，接纳他人的不同想法</p>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@ use yii\helpers\Url;
                 在这里没有勾心斗角尔虞我诈，没有霸道专横独裁统治<br/>
                 这里有的，只是一帮有理想有抱负的奋斗族，一群充满快乐和正能量的小伙伴和一次前途光明可遇而不可求的创业机会<br/>
                 我们不会高谈论阔，我们不爱画饼充饥，我们只是踏实进取<br/>
-                悦动力网不仅是一家创业公司，更是一片筑梦空间。<br/>
+                我们不仅是一家创业公司，更是一片筑梦空间。<br/>
                 我们用靠谱的技术堆砌梦想的堡垒，用丰富的经验助力梦想的脚步，永不停歇</p>
         </div>
     </div>
@@ -178,7 +178,7 @@ use yii\helpers\Url;
         <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
-        <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
+        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</p>
         <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>

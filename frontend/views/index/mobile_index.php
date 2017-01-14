@@ -93,8 +93,8 @@ use yii\helpers\Url;
     </div>
 
     <footer class="footer">
-        <p>copyright © 2014-2016 北京云杉信息技术有限公司<br/>
-            4006-135-135 &nbsp; 京ICP备14045665号</p>
+        <p>copyright © 2014-2016 新疆优悦佳品饮料有限公司<br/>
+            010-61770976 &nbsp;</p>
         <p class="xin"><a href="https://credit.cecdc.com/CX20151012011563030185.html"><img src="/images/xin.png"></a></p>
     </footer>
 </div>

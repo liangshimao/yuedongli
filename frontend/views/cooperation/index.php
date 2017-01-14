@@ -66,7 +66,15 @@ use yii\helpers\Url;
 
 <div class="cooperation-al">
     <div class="cooperation">
-        <div class="btn-link-rb"><a href="javascript:alert('暂未开放，敬请期待！');" class="red">成为优悦供应商</a><a href="javascript:alert('暂未开放，敬请期待！');" class="bule">入驻平台开店</a></div>
+        <div style="padding-top:30px;">
+            <p style="font-size:24px;color:deepskyblue;">优悦佳品需要您这样的供应商：</p>
+            <p style="text-indent: 48px;font-size:20px;margin-top:20px;">有创业发展的激情  </p>
+            <p style="text-indent: 48px;font-size:20px;margin-top:10px;">有开拓零售网店的意识和能力 </p>
+            <p style="text-indent: 48px;font-size:20px;margin-top:10px;">有较好的经营服务能力和营销方法</p>
+            <p style="text-indent: 48px;font-size:20px;margin-top:10px;">愿意尝试新思路和新方法</p>
+        </div>
+
+<!--        <div class="btn-link-rb"><a href="javascript:alert('暂未开放，敬请期待！');" class="red">成为优悦供应商</a><a href="javascript:alert('暂未开放，敬请期待！');" class="bule">入驻平台开店</a></div>-->
     </div>
 </div>
 <div class="map-icon">
@@ -74,20 +82,20 @@ use yii\helpers\Url;
     <div class="bent-list">
         <dl class="d-a">
             <dt><span><img src="/images/tel-icon.png"></span></dt>
-            <dd>热线电话<br/>4006-135-135</dd>
+            <dd>热线电话<br/>010-61770976</dd>
         </dl>
         <dl class="d-b">
             <dt><span><img src="/images/address-icon.png"></span></dt>
-            <dd>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层</dd>
+            <dd>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</dd>
         </dl>
         <dl class="d-c">
             <dt><span><img src="/images/email-icon.png"></span></dt>
-            <dd>email<br/>hezuo@meicai.cn</dd>
+            <dd>email<br/>584790085@qq.com</dd>
         </dl>
-        <dl class="d-d">
-            <dt><span><img src="/images/mc-gzh.png"></span></dt>
-            <dd>关注悦动力公众号</dd>
-        </dl>
+<!--        <dl class="d-d">-->
+<!--            <dt><span><img src="/images/mc-gzh.png"></span></dt>-->
+<!--            <dd>关注官方公众号</dd>-->
+<!--        </dl>-->
     </div>
 </div>
 
@@ -96,7 +104,7 @@ use yii\helpers\Url;
         <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
-        <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
+        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</p>
         <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>

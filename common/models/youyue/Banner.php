@@ -24,4 +24,43 @@ class Banner extends ActiveRecord
     {
         return self::find()->all();
     }
+
+    public static function addRecord($info)
+    {
+        $model = new self();
+        $model->setAttributes($info,false);
+        if($model->save()){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public static function editRecord($id,$info)
+    {
+        $model = self::findOne($id);
+        if(empty($model)){
+            return false;
+        }
+        $model->setAttributes($info,false);
+        if($model->save()){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public static function delRecord($id)
+    {
+        $model = self::findOne($id);
+        if(empty($model)){
+            return false;
+        }
+        $model->setAttributes(['del_flag' => 1],false);
+        if($model->save()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

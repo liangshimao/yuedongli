@@ -38,7 +38,7 @@ use common\components\Tools;
                 </ul>
             </div>
         </div>
-        <img src="/images/1.jpg">你好，管理员&nbsp; <i class="caret caret-down"></i></span>
+        <img src="/images/1.jpg">你好，<?php echo $realname;?>&nbsp; <i class="caret caret-down"></i></span>
 </div>
 <div id="content" style="width: auto;">
     <div class="col-left left_menu left_menu_on">
@@ -135,7 +135,7 @@ use common\components\Tools;
     </div>
     <div class="col-auto">
         <div class="tabsindex" id="tabs_title">
-            <div id="shouye" class="menu-list accive" data-url="<?=Url::toRoute('/index/main')?>"><i class="glyphicon glyphicon-home"></i>首页</div>
+            <div id="shouye" class="menu-list accive" data-url="<?=Url::toRoute('/index/main')?>"><i class="glyphicon glyphicon-home"></i> 首页</div>
         </div>
         <div class="col-1" style="padding: 5px 5px 0px 5px">
             <iframe name="right" id="rightMain" src="<?php echo Url::toRoute('/index/main'); ?>" frameborder="false" scrolling="auto" style="border:none;margin-bottom: 0px" width="100%" height="auto" allowtransparency="true"></iframe>
@@ -222,7 +222,7 @@ use common\components\Tools;
         window.top.art.dialog({
                 title: '信息修改',
                 id: 'add',
-                iframe: '<?php echo Url::toRoute('/sys/user/editpwd'); ?>',
+                iframe: '<?php echo Url::toRoute('/basic/user/editpwd'); ?>',
                 width: '480px',
                 height: '280px'
             },

@@ -47,9 +47,11 @@ use backend\components\widgets\GoLinkPager;
                 <a class="btn btn-warning buttonbtn btn-info button"
                    href="javascript:window.parent.edit(1,'修改用户信息','<?php echo Url::toRoute(['/basic/user/edit', 'id' => $val->id]); ?>', 600, 300)"><i
                         class="glyphicon glyphicon-edit"></i> 修改</a>
+                <?php if($val->id != 1):?>
                 <a class="btn btn-danger button"
                    href="javascript:confirmurl('<?= Url::toRoute(['/basic/user/delete', 'id' => $val->id]); ?>', '确定要刪除<?=$val->name?>吗?')"><i
                         class="glyphicon glyphicon-trash"></i>删除</a>
+                <?php endif;?>
             </td>
         </tr>
     <?php endforeach; ?>

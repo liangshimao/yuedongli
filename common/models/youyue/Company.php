@@ -2,34 +2,52 @@
 /**
  * Created by PhpStorm.
  * User: smile
- * Date: 16-12-13
- * Time: 下午5:21
+ * Date: 17-1-14
+ * Time: 下午4:49
  */
 
 namespace common\models\youyue;
-
-use yii\data\Pagination;
 use yii\db\ActiveRecord;
 
 class Company extends ActiveRecord
 {
     public static function tableName()
     {
-        return 'sys_company';
+        return 'sys_company_introduce';
     }
 
     public static function tableDesc()
     {
-        return '公司介绍';
+        return '公司基本信息';
+    }
+    
+    public static function getOne()
+    {
+        return self::find()->one();
+    }
+    
+    public static function addRecord($info)
+    {
+        $model = new self();
+        $model->setAttributes($info,false);
+        if($model->save()){
+            return true;
+        }else{
+            return false;
+        }
     }
 
-    public static function getAll($pageSize)
+    public static function editRecord($id,$info)
     {
-        $query = self::find()->where(['del_flag' => DEL_FLAG_FALSE]);
-        $countQuery = clone $query;
-        $pages = new Pagination(['totalCount' => $countQuery->count(), 'pageSize' => $pageSize]);
-        $info['data'] = $query->offset($pages->offset)->limit($pages->limit)->all();
-        $info['pages'] = $pages;
-        return $info;
+        $model = self::findOne($id);
+        if(empty($model)){
+            return false;
+        }
+        $model->setAttributes($info,false);
+        if($model->save()){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
