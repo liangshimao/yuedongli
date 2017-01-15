@@ -16,7 +16,7 @@ class JobController extends BaseController
         if(self::isMobile()){
             return $this->renderPartial('mobile_index');
         }else{
-            return $this->renderPartial('index');
+            return $this->renderPartial('issue');
         }
     }
     

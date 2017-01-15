@@ -86,11 +86,11 @@ use yii\helpers\Url;
         </dl>
         <dl class="d-b">
             <dt><span><img src="/images/address-icon.png"></span></dt>
-            <dd>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</dd>
+            <dd>公司地址<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</dd>
         </dl>
         <dl class="d-c">
             <dt><span><img src="/images/email-icon.png"></span></dt>
-            <dd>email<br/>584790085@qq.com</dd>
+            <dd>联系邮箱<br/>584790085@qq.com</dd>
         </dl>
 <!--        <dl class="d-d">-->
 <!--            <dt><span><img src="/images/mc-gzh.png"></span></dt>-->

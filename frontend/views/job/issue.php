@@ -53,6 +53,18 @@ use yii\helpers\Url;
             color: #fff;
             text-decoration: underline;
         }
+         .thead {
+            background: #f2f2f2 none repeat scroll 0 0;
+            font-size: 16px;
+            height: 46px;
+            line-height: 46px;
+             margin-bottom:10px;
+        }
+        .thead .a {
+            float: left;
+            text-align: center;
+            width: 220px;
+        }
     </style>
 </head>
 
@@ -78,38 +90,79 @@ use yii\helpers\Url;
     <div class="mian-left">
         <div class="mian-nav">
             <ul>
-                <li><a href="<?=Url::toRoute('/job/index')?>">招聘岗位</a></li>
-                <li><a href="<?=Url::toRoute('/job/flow')?>">招聘流程</a></li>
-                <li class="active"><a href="<?=Url::toRoute('/job/issue')?>">常见问题</a></li>
+<!--                <li><a href="--><?//=Url::toRoute('/job/index')?><!--">招聘岗位</a></li>-->
+<!--                <li><a href="--><?//=Url::toRoute('/job/flow')?><!--">招聘流程</a></li>-->
+                <li class="active"><a href="<?=Url::toRoute('/job/index')?>">招聘岗位</a></li>
             </ul>
         </div>
     </div>
     <div class="mian-right">
         <div class="problem">
+            <div class="thead"><span class="a" style="width:120px;">职位名称</span></div>
             <div class="problem-list">
-                <div class="rubric" id="in-1" onclick="showhideone()"><span class="left">Q：我怎么参加贵公司招聘？有哪些要求？</span><span class="right"></span></div>
-                <div class="answer" id="on-1">只要你是本科及以上学历，计算机相关类专业，即可参加我们的招聘。</div>
-            </div>
-            <div class="problem-list">
-                <div class="rubric" id="in-2" onclick="showhidetwo()"><span class="left">Q：本次招聘的具体流程？</span><span class="right"></span></div>
-                <div class="answer" id="on-2">（1）在线申请投递简历：每位同学可在校招官网投递1个方向的职位；。我们会根据每个职位的需求量安排简历分配。所以同学们在选择投递职位方向前，请务必慎重考虑。一旦投递成功，职位方向不可修改。另外，网申中带“*”号的项目均为必填项，若未填写或遗漏填写都将无法正常提交。<br/>
-                    （2）简历筛选：我们会根据不同职位的基本要求，认真地对每一位同学的简历进行筛选，通过筛选的同学将有机会参加下一轮的选拔；<br/>
-                    （3）笔试：所有同学都需要进行笔试，我们会根据同学们申请的职位方向来进行相应的安排；每个同学只有一次笔试机会，且不可调整，请根据笔试批次的时间安排，提前安排好自己的时间；<br/>
-                    （4）面试：根据不同职位的要求，一般会进行2-3轮的面试，具体安排请以你收到的通知为准。<br/>
-                    （5）签约入职：面试结束后，公司会第一时间通知面试结果并发放录用通知书，安排签约。
+                <div class="rubric" id="in-1" onclick="showhideone()"><span class="left" style="margin-left:16px;">招商经理</span><span class="right"></span></div>
+                <div class="answer" id="on-1">岗位职责：<br/>
+                    1、负责招商工作和开发客户， 完成每月招商部下达的招商任务；<br/>
+                    2、负责客户拜访及回访，做好客户问题的回答， 并热情向其推荐合适的经营场地；<br/>
+                    3、负责招商、记录客户档案、整理客户资料；<br/>
+                    4、做好市场调研、客户分析工作并及时反应市场信息；<br/>
+                    5、负责客户资料的搜集与整理；<br/>
+                    6、负责客户定期拜访、回访客户, 并及时反映客户问题；<br/>
+                    7、协助招商经理或招商主管做好疑难客户的处理工作；<br/>
+                    8、协助完成各种招商说明会及推荐会等活动的召开举行；<br/>
+                    9、协助财务部完成客户的签约及收款；<br/>
+                    10、负责每日客户接待,认真讲解招商政策， 回答客户疑问；<br/>
+                    11、完成招商工作， 积累客户并建立客户档案；<br/>
+
+                    <p style="margin-top:10px;">工作地点：华北地区</p>
                 </div>
             </div>
             <div class="problem-list">
-                <div class="rubric" id="in-3" onclick="showhidethree()"><span class="left">Q：网申后我如何得知笔试和面试信息？</span><span class="right"></span></div>
-                <div class="answer" id="on-3">2017年校园招聘的职位都向哪些人开我们会认真对待每一份简历。凡符合招聘基本条件的同学，都将通过电话沟通形式通知。同时，你也可以通过校招微信公众号的查询功能，随时查看你的应聘进度。</div>
+                <div class="rubric" id="in-2" onclick="showhidetwo()"><span class="left" style="margin-left:16px;">销售代表</span><span class="right"></span></div>
+                <div class="answer" id="on-2">
+                    岗位职责：<br/>
+                    1、负责指定区域快销品终端市场的维护和开拓；<br/>
+                    2、确保每天完成足够数量的客户拜访；<br/>
+                    3、通过拜访了解产品库存、摆放、陈列、需求，并视情况亲自动手帮助客户做好产品冰柜和柜台陈列，了解客户心理、最终完成每月的订单任务；<br/>
+                    4、积极培养和建立与客户的感情，通过卓越的工作表现帮助客户和公司实现双赢；<br/>
+                    5、能独立开拓快销品市场尤佳。<br/><br/>
+                    岗位要求：<br/>
+                    1、二年以上快速消费品行业销售经验，积极进取，具良好的沟通协调及市场开拓能力，能吃苦耐劳，承受工作压力。<br/>
+                    2、能自备交通工具。<br/>
+                    3、以当地或能长驻当地的优先<br/><br/>
+
+                    工作地点：松滋乡镇<br/><br/>
+
+                    一经录用享有：<br/>
+                    1、薪资构成：基本薪资+绩效奖+福利金+年终奖；<br/>
+                    2、每年有加薪机会；<br/>
+                    3、双休、法定节假日，工作满一年可享受带薪年假；<br/>
+                    4、入职即办理五险＋公积金<br/>
+                </div>
             </div>
             <div class="problem-list">
-                <div class="rubric" id="in-4" onclick="showhidefour()"><span class="left">Q：获得offer后是否可以提前进入公司实习？</span><span class="right"></span></div>
-                <div class="answer" id="on-4">公司欢迎所有签署过就业协议的同学提前来实习，这样可以帮助同学们更快的融入公司，熟悉业务。</div>
-            </div>
-            <div class="problem-list">
-                <div class="rubric" id="in-5" onclick="showhidefive()"><span class="left">Q：此次校园招聘的岗位具体的工作地是哪？</span><span class="right"></span></div>
-                <div class="answer" id="on-5">本次校园招聘的岗位均在北京总部工作。（具体地址可看公司介绍页）</div>
+                <div class="rubric" id="in-3" onclick="showhidethree()"><span class="left" style="margin-left:16px;">重点客户销售代表</span><span class="right"></span></div>
+                <div class="answer" id="on-3">
+                    工作职责：<br/>
+                    1、负责销量指标的分解完成；<br/>
+                    2、确保产品陈列生动化达标；<br/>
+                    3、负责理货组长及理货员综合管理；<br/>
+                    4、负责所管辖门店服务和问题解决；<br/>
+                    5、其他行政工作和横向协调等。<br/><br/>
+                    任职资格：<br/>
+                    1、高中及以上，30-40岁，3至5年以上卖场、超市、便利等快速消费品行业门店销售经验优先；<br/>
+                    2、有基本服务卖场、超市、便利或卖场相关管理工作经验，有一定领悟力和独立沟通能力，一定的数据分析能力；<br/>
+                    3、开朗外向易于沟通，快速反应能力和良好的应变能力，体力充沛，能承受工作压力；<br/>
+                    4、通过短期培训和工作实践能较快适应工作内容；能高度认同公司企业文化，并能自觉遵守公司规章制度，积极进取，善于和乐于团队管理。<br/><br/>
+
+                    工作地点：汉口、武昌、汉阳、关山<br/><br/>
+
+                    一经录用享有：<br/>
+                    1、薪资构成：基本薪资+绩效奖+福利+年终奖；<br/>
+                    2、每年有加薪机会；<br/>
+                    3、双休、法定节假日，工作满一年可享受带薪年假；<br/>
+
+                </div>
             </div>
         </div>
     </div>
@@ -120,7 +173,7 @@ use yii\helpers\Url;
         <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
-        <p><span>版权信息</span><br/>copyright © 2014-2016 北京云杉世界信息技术有限公司 4006-135-135<br/>北京市朝阳区安贞路安贞西里5区1号楼新华金融大厦3-4层 京ICP备14045665号</p>
+        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</p>
         <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>
