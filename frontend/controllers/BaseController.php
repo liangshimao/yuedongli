@@ -45,7 +45,7 @@ class BaseController extends Controller
         }
 
         if($is_mac){
-            return  true;
+            return  false;
         }
     }
 }

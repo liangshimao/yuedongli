@@ -288,6 +288,19 @@ em,i{font-style: normal; }
 	margin-left: 23%;
 	padding-bottom: 5%;
 }
+
+#page-four1{
+	background: url(../images/page-four1.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+#page-four2{
+	background: url(../images/page-four2.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
 @media (min-width: 1920px) {
 	#page-two h3{
 	font-size: 78px;

@@ -86,8 +86,8 @@ use yii\helpers\Url;
         <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
-        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</p>
-        <p class="none"><a href="https://credit.cecdc.com/CX20151012011563030185.html" target="_blank"><img src="/images/cert.png"></a></p>
+        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新ICP备17000073号</p>
+        <p class="none"><a href="javascript:;" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>
 
