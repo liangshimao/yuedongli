@@ -9,11 +9,16 @@
 namespace frontend\controllers;
 
 
+use common\models\youyue\Logo;
+
 class CompanyController extends BaseController
 {
     public function actionIndex()
     {
-        return $this->renderPartial('index');
+        $logo = Logo::getOne();
+        return $this->renderPartial('index',[
+            'logo' => isset($logo->img_url)?$logo->img_url:'',
+        ]);
     }
     
     public function actionIndexMobile()

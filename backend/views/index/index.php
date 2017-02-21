@@ -91,10 +91,6 @@ use common\components\Tools;
                             <i class="glyphicon glyphicon-zoom-in"></i>
                             logo管理
                         </div>
-                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/ico/index')?>" name="ico">
-                            <i class="glyphicon  glyphicon-zoom-out"></i>
-                            ico管理
-                        </div>
                     </div>
                     <div class="menuone" disab="1" status="true">
                         <i class="glyphicon glyphicon-pencil"></i>
@@ -102,17 +98,9 @@ use common\components\Tools;
                         <span class="caret caret-upc"></span>
                     </div>
                     <div class="menulist" style="">
-                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/company/index')?>" name="company">
+                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/operation/index')?>" name="operation">
                             <i class="glyphicon  glyphicon-file"></i>
-                            公司介绍
-                        </div>
-                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/history/index')?>" name="history">
-                            <i class="glyphicon glyphicon-time"></i>
-                            发展历程
-                        </div>
-                        <div class="menutwo" data-url="<?=Url::toRoute('/youyue/idea/index')?>" name="idea">
-                            <i class="glyphicon glyphicon-info-sign"></i>
-                            公司理念
+                            招商信息
                         </div>
                         <div class="menutwo" data-url="<?=Url::toRoute('/youyue/info/index')?>" name="info">
                             <i class="glyphicon glyphicon-list-alt"></i>

@@ -72,14 +72,7 @@ use yii\helpers\Url;
      */
     function add()
     {
-        var count = $("#bannerCount").val();
-        if(count >= 3)
-        {
-            artAlert("轮播图只能添加3张");
-        }else{
-            omnipotent('edit','<?=Url::toRoute('/youyue/banner/add')?>', '添加轮播图', 600, 420, 0);
-        }
-
+        omnipotent('edit','<?=Url::toRoute('/youyue/banner/add')?>', '添加轮播图', 600, 420, 0);
     }
 
 </script>

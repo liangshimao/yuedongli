@@ -9,14 +9,22 @@
 namespace frontend\controllers;
 
 
+use common\models\youyue\Banner;
+use common\models\youyue\Logo;
+
 class IndexController extends BaseController
 {
     public function actionIndex()
     {
+        $list = Banner::getAll();
+        $logo = Logo::getOne();
         if(self::isMobile()){
             return $this->renderPartial('mobile_index');
         }else{
-            return $this->renderPartial('index');
+            return $this->renderPartial('index',[
+                'list' => $list,
+                'logo' => isset($logo->img_url)?$logo->img_url:'',
+            ]);
         }
     }
 

@@ -19,4 +19,5 @@ return array(
     'yii\\redis\\' => array($vendorDir . '/yiisoft/yii2-redis'),
     'linslin\\yii2\\curl\\' => array($vendorDir . '/linslin/yii2-curl'),
     'yii\\file\\' => array($vendorDir . '/yiisoft/yii2-file'),
+    'kucha\\ueditor\\' => array($vendorDir . '/kucha/ueditor'),
 );

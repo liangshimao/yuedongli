@@ -37,8 +37,8 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,饮料,优越佳品" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
 </head>
 

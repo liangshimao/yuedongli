@@ -18,15 +18,15 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,优悦佳品,饮料,新疆优悦佳品" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料,新疆优悦佳品" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
 
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link rel="shortcut icon" href="/images/youyue.ico">
-    <title>悦动力-中国饮料的领导者</title>
+    <title>悦动力-新疆优悦佳品饮料有限公司</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <style>
@@ -41,6 +41,7 @@ use yii\helpers\Url;
 
 <div class="fixed_r">
     <ul>
+        <?php if(empty($list)):?>
         <li></li>
         <li></li>
         <li></li>
@@ -48,9 +49,15 @@ use yii\helpers\Url;
         <li></li>
         <li></li>
         <li></li>
+        <?php else:?>
+                <li></li>
+            <?php foreach ($list as $k=>$v):?>
+                <li></li>
+        <?php endforeach;endif;?>
     </ul>
 </div>
 <div class="num_box"  style="z-index: 0">
+    <?php if(empty($list)):?>
     <div class="num" id="page-one">
         <div class="block-all1" id="page2font"></div>
         <div class="picture-bar">
@@ -126,6 +133,20 @@ use yii\helpers\Url;
             </div>
         </div>
     </div>
+    <?php else:foreach ($list as $key=>$value):?>
+        <div class="num" style="background: url('<?=$value->img_url?>') no-repeat;background-size:cover;color:#fff;">
+            <div class="block-all1"></div>
+            <div class="picture-bar">
+                <div class="bar-content">
+                    <ul>
+                        <li><img src="/images/picture02-bar1.png"></li>
+                        <li><img src="/images/picture02-bar2.png"></li>
+                        <li><img src="/images/picture02-bar3.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <?php endforeach;endif;?>
     <div class="num" id="page-five">
         <!--<div class="link-icon-al">
             <div class="link-block">
@@ -182,7 +203,8 @@ use yii\helpers\Url;
 
 <nav class="nav-header"  style="z-index: 99999999999999999">
     <div class="nav-width">
-        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="/images/logo.png" /></a></div>
+        
+        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>" style="color:#63ac48;text-decoration: none;">首页</a></li>

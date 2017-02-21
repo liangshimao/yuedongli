@@ -5,9 +5,11 @@ use yii\helpers\Url;
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>公司招聘</title>
+    <title>公司招聘-悦动力-新疆优悦佳品饮料有限公司</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta content="width=1200" name="viewport">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link href="/css/job/bootstrap.min.css" rel="stylesheet">
     <script src="/js/job/jquery-1.10.2.min.js"></script>
@@ -71,7 +73,7 @@ use yii\helpers\Url;
 <body>
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="<?=Url::toRoute('/')?>"><img src="/images/logo.png" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/')?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>

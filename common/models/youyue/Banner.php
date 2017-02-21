@@ -22,7 +22,7 @@ class Banner extends ActiveRecord
     
     public static function getAll()
     {
-        return self::find()->all();
+        return self::find()->orderBy(['sort' => SORT_ASC])->all();
     }
 
     public static function addRecord($info)

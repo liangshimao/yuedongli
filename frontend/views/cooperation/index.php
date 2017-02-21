@@ -18,21 +18,22 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
 
 
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link rel="shortcut icon" href="/images/youyue.ico">
-    <title>合作共赢-悦动力-中国饮料驰名商标</title>
+    <title>合作共赢-悦动力-新疆优悦佳品饮料有限公司</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <script src="/js/jquery-1.10.2.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/mian.js"></script>
     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/common.css" rel="stylesheet">
     <script>
         var _hmt = _hmt || [];
         (function() {
@@ -42,15 +43,27 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
+    <style>
+        .liuyan{
+            background: #f7f7f7;
+            width:100%;
+            margin-bottom:5px;
+        }
+        #postMsg{
+            background: #fafcf5;
+            width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 
 <body>
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="/images/logo.png" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>
@@ -78,19 +91,19 @@ use yii\helpers\Url;
     </div>
 </div>
 <div class="map-icon">
-    <div class="bitmap"><img src="/images/bitmap.png"></div>
+    <div class="bitmap"><img width="1000" height="362" src="<?php if(empty($info->img_url)):echo '/images/bitmap.png';else:echo $info->img_url;endif;?>"></div>
     <div class="bent-list">
         <dl class="d-a">
             <dt><span><img src="/images/tel-icon.png"></span></dt>
-            <dd>热线电话<br/>010-61770976</dd>
+            <dd>热线电话<br/><?php if(empty($info->phone)):echo '010-61770976';else:echo $info->phone;endif;?></dd>
         </dl>
         <dl class="d-b">
             <dt><span><img src="/images/address-icon.png"></span></dt>
-            <dd>公司地址<br/>新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦</dd>
+            <dd>公司地址<br/><?php if(empty($info->address)):echo '新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦';else:echo $info->address;endif;?></dd>
         </dl>
         <dl class="d-c">
             <dt><span><img src="/images/email-icon.png"></span></dt>
-            <dd>联系邮箱<br/>13381469150@163.com</dd>
+            <dd>联系邮箱<br/><?php if(empty($info->email)):echo '13381469150@163.com';else:echo $info->email;endif;?></dd>
         </dl>
 <!--        <dl class="d-d">-->
 <!--            <dt><span><img src="/images/mc-gzh.png"></span></dt>-->
@@ -98,6 +111,40 @@ use yii\helpers\Url;
 <!--        </dl>-->
     </div>
 </div>
+
+<div class="liuyan">
+    <form action="" id="postMsg">
+        <table class="registerTable">
+            <tr>
+                <th colspan="3"><b style="font-size: 16px;">我要加入</b></th>
+            </tr>
+            <tr>
+                <td class="alignRight">*</td>
+                <td class="colTwo">姓名:</td>
+                <td><input type="text" class="long inputText" name="name"><span id="nameTip" style="color:red;display: none;">请填写姓名</span></td>
+            </tr>
+            <tr>
+                <td class="alignRight">*</td>
+                <td class="colTwo">电话:</td>
+                <td><input type="tel" class="long inputText" name="phone"><span id="phoneTip" style="color:red;display: none;">请填写电话</span></td>
+            </tr>
+            <tr>
+                <td class="alignRight">*</td>
+                <td class="colTwo">所在区域:</td>
+                <td><input type="text" class="long inputText" name="zone"><span id="zoneTip" style="color:red;display: none;">请填写区域</span></td>
+            </tr>
+            <tr>
+                <td class="alignRight">*</td>
+                <td class="colTwo">地址:</td>
+                <td><input type="text" class="long inputText" name="address"><span id="addressTip" style="color:red;display: none;">请填写地址</span></td>
+            </tr>
+        </table>
+        <div class="submitWrap" style="text-align:left;">
+            <span class="button buttonY" onclick="sumbit();" style="margin-left:180px;">提交</span>
+        </div>
+    </form>
+</div>
+
 
 <div class="footer-pull">
     <div class="footer">
@@ -108,5 +155,55 @@ use yii\helpers\Url;
         <p class="none"><a href="javascript:;" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>
+<script>
+    function sumbit() {
+        var name = $("input[name=name]").val();
+        var phone = $("input[name=phone]").val();
+        var zone = $("input[name=zone]").val();
+        var address = $("input[name=address]").val();
+        if(name == ""){
+            $("#nameTip").show();
+            setTimeout(function () {
+                $("#nameTip").hide();
+            },3000);
+            return false;
+        }
+        if(phone == ""){
+            $("#phoneTip").show();
+            setTimeout(function () {
+                $("#phoneTip").hide();
+            },3000);
+            return false;
+        }
+        if(zone == ""){
+            $("#zoneTip").show();
+            setTimeout(function () {
+                $("#zoneTip").hide();
+            },3000);
+            return false;
+        }
+        if(address == ""){
+            $("#addressTip").show();
+            setTimeout(function () {
+                $("#addressTip").hide();
+            },3000);
+            return false;
+        }
+        $.ajax({
+            url:"<?=Url::toRoute('/cooperation/operation_ajax')?>",
+            dataType:"json",
+            type:"post",
+            data:$("#postMsg").serialize(),
+            success:function(res){
+                if(res.code == 200){
+                    alert("提交成功!");
+                    $(":input").val("");
+                }else{
+                    alert("提交失败,请重试");
+                }
+            }
+        });
+    }
+</script>
 </body>
 </html>

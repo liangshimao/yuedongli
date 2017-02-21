@@ -25,7 +25,7 @@ use yii\helpers\Url;
     <meta name="description" content="悦动力,优悦佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link rel="shortcut icon" href="/images/youyue.ico">
-    <title>最新资讯-悦动力-中国饮料驰名商标</title>
+    <title>最新资讯-悦动力-新疆优悦佳品饮料有限公司</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <script>

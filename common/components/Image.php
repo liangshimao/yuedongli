@@ -22,18 +22,20 @@ class Image extends Component
             return false;
         }
         
-        $dir = Yii::getAlias('@app') . '/../data/images/';
+        //$dir = Yii::getAlias('@app') . '/../data/images/';
+        $dir = Yii::getAlias('@app') . '/../web/backend/upload/';
         if(!is_dir($dir)){
             mkdir($dir,0777,true);
         }
         $file_name = date('YmdHis',time()) . mt_rand('10000','99999'). '.' .$suffix;
         move_uploaded_file($file["tmp_name"], $dir.$file_name);
-        $bmobFile = new BmobFile();
+        //$bmobFile = new BmobFile();
 
         //第一个参数是文件的名称,第二个参数是文件的url(可以是本地路径,最终是通过file_get_contents获取文件内容)
-        $res=$bmobFile->uploadFile2($file["name"],$dir.$file_name);
-        unlink($dir.$file_name);
-        return $res->url;
+        //$res=$bmobFile->uploadFile2($file["name"],$dir.$file_name);
+        //unlink($dir.$file_name);
+        //return $res->url;
+        return MPS_URL.'/upload/'.$file_name;
     }
 
 }

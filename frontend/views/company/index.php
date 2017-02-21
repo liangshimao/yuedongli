@@ -18,14 +18,14 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link rel="shortcut icon" href="/images/youyue.ico">
-    <title>公司介绍-悦动力-中国饮料驰名商标</title>
+    <title>公司介绍-悦动力-新疆优悦佳品饮料有限公司</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <script>
@@ -37,15 +37,15 @@ use yii\helpers\Url;
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
-    <meta name="keywords" content="悦动力,优悦佳品,饮料" >
-    <meta name="description" content="悦动力,优悦佳品,饮料">
+    <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
+    <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
 </head>
 
 <body>
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="/images/logo.png" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>
