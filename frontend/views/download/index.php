@@ -48,7 +48,7 @@ use yii\helpers\Url;
 <body>
 <nav class="nav-header-bot">
     <div class="nav-width-bot">
-        <div class="logo"><a href="<?=Url::toRoute('/')?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" /></a></div>
+        <div class="logo"><a href="<?=Url::toRoute('/index/index')?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" /></a></div>
         <div class="nav-link">
             <ul>
                 <li><a href="<?=Url::toRoute('/index/index')?>">首页</a></li>
