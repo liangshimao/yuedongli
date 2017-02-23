@@ -24,7 +24,7 @@ use yii\helpers\Url;
 <body>
 <div class="home-warp">
     <div class="logo-nav">
-        <div class="logo"><a href="<?= Url::toRoute('/index/index') ?>"><img src="/images/logo.png"></a></div>
+        <div class="logo"><a href="<?= Url::toRoute('/index/index') ?>"><img src="<?php if(empty($logo)):echo '/images/logo.png';else: echo $logo;endif;?>"></a></div>
         <div class="nav-icon"><img src="/images/nav-icon.png"></div>
     </div>
     <div class="menu-nav">
@@ -33,7 +33,6 @@ use yii\helpers\Url;
             <li><a href="<?= Url::toRoute('/company/index-mobile') ?>">公司介绍</a></li>
             <li><a href="<?= Url::toRoute('/job/index-mobile') ?>">加入我们</a></li>
             <li><a href="<?= Url::toRoute('/cooperation/index-mobile') ?>">合作共赢</a></li>
-            <li><a href="<?= Url::toRoute('/download/index-mobile') ?>">优悦商城</a></li>
         </ul>
     </div>
 
@@ -71,52 +70,50 @@ use yii\helpers\Url;
     <div class="idea">
         <div class="title">优悦理念</div>
         <div class="promise">
-            <p>为了一个不变的承诺<br/><span>让老百姓生活的更简单</span></p>
-            <div class="info">优悦佳品前期以中小型餐饮商户为切入点，专注为全国近1000万家餐厅提供一站式、全品类且更低价、更新鲜的餐饮原材料采购服务。<br/><br/>
-                为客户提供省时省力、省钱省心的原材料，实现全程无忧的采购。通过对采购、质检、仓储、物流等流程科学精细化的管理，解决农民农产品滞销问题。
-            </div>
+            <p><span>选择大于努力，成功只因有您。悦动力，悦生活。</span></p>
+<!--            <div class="info">优悦佳品前期以中小型餐饮商户为切入点，专注为全国近1000万家餐厅提供一站式、全品类且更低价、更新鲜的餐饮原材料采购服务。<br/><br/>-->
+<!--                为客户提供省时省力、省钱省心的原材料，实现全程无忧的采购。通过对采购、质检、仓储、物流等流程科学精细化的管理，解决农民农产品滞销问题。-->
+<!--            </div>-->
         </div>
         <div class="mission">
             <div class="mc-block">
                 <div class="name sm"><span>优悦使命</span></div>
-                <div class="info">让老百姓生活的更简单</div>
+                <div class="info">让我们的产品随处可见触手可及<br/>
+                    满足和激发消费者的购买欲使其物超所值</div>
             </div>
             <div class="mc-block">
                 <div class="name yj"><span>优悦愿景</span></div>
-                <div class="info">让天下的餐厅没有难做的生意<br/>
-                    为8亿农民谋幸福<br/>
-                    让13亿中国人吃上放心菜<br/>
-                    共创快乐云杉，一路欢笑100年
+                <div class="info">成为中国饮品行业发展最快最好的新势力<br/>
+                    成为优悦佳品集团的重要增长引擎<br/>
+                    成为最受信赖的雇主品牌<br/>
                 </div>
             </div>
             <div class="mc-block none">
                 <div class="name jzg"><span>优悦价值观</span></div>
-                <div class="info">客户第一：客户是衣食父母<br/>
-                    团结合作：责任担当，开放分享<br/>
-                    拥抱变化：勇于变化，大胆创新<br/>
-                    诚信：言行坦荡，表里如一<br/>
-                    坚定：坚持梦想，永不言弃<br/>
-                    敬业：专业专注，全力以赴
+                <div class="info">创新：积极参与头脑风暴<br/>欢迎他人从不同的角度提出见解和意见<br/>
+                    诚信：在日常生活中行为<br/>正直信任他人并被他人所信任<br/>
+                    必胜：在追求目标过程中<br/>展现出全力以赴的意志力和行动<br/>
+                    尊重：善于欣赏他人的优<br/>点和价值接纳他人的不同想法<br/>
                 </div>
             </div>
         </div>
         <div class="dream">
-            <p>社会责任</p>
-            <div class="info">优悦佳品的源头直采模式，致力为商户带去更新鲜低价的食材，同时让利农民，使多方收益，达成共赢。优悦佳品在促使多方向好的同时，为践行社会责任，也走上了公益之路。<br
-                /><br/>
-
-                2016年7月15日，优悦佳品与中国红十字基金会共同发起设立“最优悦公益基金”，该基金旨在关注农产品供应链上的弱势群体，关注他们的生命安全与生计发展，照亮他们的生活，温暖我们的世界。<br/><br/>
-
-
-                目前，最优悦公益基金已经开展“小候鸟关爱计划”、“最美教室”、“最美包裹”、“最优悦扶贫公开课”等相关项目，为农村留守儿童送去温暖，为贫困农村脱贫困境带去光明。
+            <p>优悦正能量</p>
+            <div class="info">
+                我们是一支年轻的团队，我们是一群怀揣梦想的人.
+                在这里没有勾心斗角尔虞我诈，没有霸道专横独裁统治.<br/><br/>
+                这里有的，只是一帮有理想有抱负的奋斗族，一群充满快乐和正能量的小伙伴和一次前途光明可遇而不可求的创业机会<br/><br/>
+                我们不会高谈论阔，我们不爱画饼充饥，我们只是踏实进取.
+                我们不仅是一家创业公司，更是一片筑梦空间。<br/><br/>
+                我们用靠谱的技术堆砌梦想的堡垒，用丰富的经验助力梦想的脚步，永不停歇<br/><br/>
             </div>
         </div>
     </div>
 
     <footer class="footer">
-        <p>copyright © 2014-2016 北京云杉信息技术有限公司<br/>
-            4006-135-135 &nbsp; 京ICP备14045665号</p>
-        <p class="xin"><a href="https://credit.cecdc.com/CX20151012011563030185.html"><img src="/images/xin.png"></a>
+        <p>copyright © 2014-2016 新疆优悦佳品饮料有限公司<br/>
+            010-61770976 &nbsp;</p>
+        <p class="xin"><a href="javascript:;"><img src="/images/xin.png"></a>
         </p>
     </footer>
 </div>

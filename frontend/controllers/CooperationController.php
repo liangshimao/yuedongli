@@ -20,7 +20,10 @@ class CooperationController extends BaseController
         $logo = Logo::getOne();
         $info = Info::getOne();
         if(self::isMobile()){
-            return $this->renderPartial('mobile_index');
+            return $this->renderPartial('mobile_index',[
+                'logo' => isset($logo->img_url)?$logo->img_url:'',
+                'info' => $info,
+            ]);
         }else{
             return $this->renderPartial('index',[
                 'logo' => isset($logo->img_url)?$logo->img_url:'',
@@ -31,7 +34,12 @@ class CooperationController extends BaseController
 
     public function actionIndexMobile()
     {
-        return $this->renderPartial('mobile_index');
+        $logo = Logo::getOne();
+        $info = Info::getOne();
+        return $this->renderPartial('mobile_index',[
+            'logo' => isset($logo->img_url)?$logo->img_url:'',
+            'info' => $info,
+            ]);
     }
     
     public function actionOperation_ajax()

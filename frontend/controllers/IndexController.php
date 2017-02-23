@@ -19,7 +19,9 @@ class IndexController extends BaseController
         $list = Banner::getAll();
         $logo = Logo::getOne();
         if(self::isMobile()){
-            return $this->renderPartial('mobile_index');
+            return $this->renderPartial('mobile_index',[
+                'logo' => isset($logo->img_url)?$logo->img_url:'',
+            ]);
         }else{
             return $this->renderPartial('index',[
                 'list' => $list,
@@ -30,7 +32,10 @@ class IndexController extends BaseController
 
     public function actionIndexMobile()
     {
-        return $this->renderPartial('mobile_index');
+        $logo = Logo::getOne();
+        return $this->renderPartial('mobile_index',[
+            'logo' => isset($logo->img_url)?$logo->img_url:'',
+        ]);
     }
     
     

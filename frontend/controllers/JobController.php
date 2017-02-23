@@ -19,7 +19,10 @@ class JobController extends BaseController
         $logo = Logo::getOne();
         $job = Duty::getAll('',1000);
         if(self::isMobile()){
-            return $this->renderPartial('mobile_index');
+            return $this->renderPartial('mobile_index',[
+                'logo' => isset($logo->img_url)?$logo->img_url:'',
+                'job' => $job['data'],
+            ]);
         }else{
             return $this->renderPartial('index',[
                 'logo' => isset($logo->img_url)?$logo->img_url:'',
@@ -27,14 +30,14 @@ class JobController extends BaseController
             ]);
         }
     }
-    
-    public function actionFlow()
+
+    public function actionIndexMobile()
     {
-        return $this->renderPartial('flow');
-    }
-    
-    public function actionIssue()
-    {
-        return $this->renderPartial('issue');
+        $logo = Logo::getOne();
+        $job = Duty::getAll('',1000);
+        return $this->renderPartial('mobile_index',[
+            'logo' => isset($logo->img_url)?$logo->img_url:'',
+            'job' => $job['data'],
+        ]);
     }
 }

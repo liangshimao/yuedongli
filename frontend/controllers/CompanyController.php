@@ -23,7 +23,10 @@ class CompanyController extends BaseController
     
     public function actionIndexMobile()
     {
-        return $this->renderPartial('mobile_index');
+        $logo = Logo::getOne();
+        return $this->renderPartial('mobile_index',[
+            'logo' => isset($logo->img_url)?$logo->img_url:'',
+        ]);
     }
 
 }
