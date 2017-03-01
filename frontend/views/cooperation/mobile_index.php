@@ -58,7 +58,7 @@ use yii\helpers\Url;
             <div class="info">
                 电话：<?php if(empty($info->phone)):echo '010-61770976';else:echo $info->phone;endif;?><br/>
                 地址：<?php if(empty($info->address)):echo '新疆喀什经济开发区深喀大道北侧喀什发展大厦';else:echo $info->address;endif;?><br/>
-                邮箱：<?php if(empty($info->email)):echo '13381469150@163.com';else:echo $info->email;endif;?><br/>
+                邮箱：<?php if(empty($info->email)):echo 'youyuejiapin@163.com';else:echo $info->email;endif;?><br/>
             </div>
         </div>
 
@@ -102,7 +102,7 @@ use yii\helpers\Url;
 
     <footer class="footer">
         <p>copyright © 2014-2016 新疆优悦佳品饮料有限公司<br/>
-            010-61770976 &nbsp;</p>
+            <?php if(isset($info->phone)):echo $info->phone;else:echo '4008510958';endif;?> &nbsp;&nbsp;新ICP备17000073号 &nbsp;</p>
         <p class="xin"><a href="javascript:;"><img src="/images/xin.png"></a>
         </p>
     </footer>

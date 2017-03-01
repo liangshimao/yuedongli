@@ -46,7 +46,7 @@ use yii\helpers\Url;
     <div class="home-page-two">
         <div class="title"><span>选择大于努力</span> 成功只因有您</div>
         <div class="fu-title">悦动力 悦生活</div>
-        <div class="picture"><img src="/images/home-page-2.jpg"></div>
+        <div class="picture"><img src="/images/399574937.jpg"></div>
         <ul>
             <li><span class="left a">激情</span><span class="right">我们有有创业发展的激情</span></li>
             <li><span class="left b">活力</span><span class="right">我们是一支年轻的队伍</span></li>
@@ -57,7 +57,7 @@ use yii\helpers\Url;
     <div class="home-page-three">
         <div class="title"><span>让我们的产品随处可见、触手可及</span></div>
         <div class="fu-title">满足和激发消费者的购买欲</div>
-        <div class="picture"><img src="/images/home-page-3.jpg"></div>
+        <div class="picture"><img src="/images/359440847.jpg"></div>
         <ul>
             <li><span class="left a">合作</span><span class="right">长期合作 合作共赢</span></li>
             <li><span class="left b">让利</span><span class="right">源头直采 告别中间商</span></li>
@@ -65,33 +65,50 @@ use yii\helpers\Url;
         </ul>
     </div>
 
-    <div class="home-page-four">
-        <img src="/images/home-page-4.jpg">
-        <div class="gy-text"><img src="/images/home-gy.png"></div>
-
+    <div class="home-page-three">
+        <div class="picture"><img src="/images/305914513.jpg"></div>
+        <ul>
+            <li><span class="left a">合作</span><span class="right">长期合作 合作共赢</span></li>
+            <li><span class="left b">让利</span><span class="right">源头直采 告别中间商</span></li>
+            <li><span class="left c">双赢</span><span class="right">互联网＋线下＝双赢 改变中国饮料市场</span></li>
+        </ul>
     </div>
 
-<!--    <div class="home-code-wit">-->
-<!--        <div class="home-code">-->
-<!--            <dl>-->
-<!--                <dt><img src="/images/code-pp.png"</dt>-->
-<!--                <dd>优悦品牌</dd>-->
-<!--            </dl>-->
-<!--            <dl>-->
-<!--                <dt><img src="/images/code-wb.png"</dt>-->
-<!--                <dd>优悦官微</dd>-->
-<!--            </dl>-->
-<!--            <dl>-->
-<!--                <dt><img src="/images/code-wx.png"</dt>-->
-<!--                <dd>微信商城</dd>-->
-<!--            </dl>-->
-<!--            <div class="clear"></div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="home-page-three">
+        <div class="picture"><img src="/images/page-four1.jpg"></div>
+        <ul>
+            <li><span class="left a">合作</span><span class="right">长期合作 合作共赢</span></li>
+            <li><span class="left b">让利</span><span class="right">源头直采 告别中间商</span></li>
+            <li><span class="left c">双赢</span><span class="right">互联网＋线下＝双赢 改变中国饮料市场</span></li>
+        </ul>
+    </div>
+
+    
+    <div class="home-page-four">
+        <img src="/images/page-four1.jpg">
+    </div>
+
+    <div class="home-code-wit">
+        <div class="home-code">
+            <dl style="visibility:hidden;">
+                <dt><img src="/images/code-pp.png"</dt>
+                <dd>优悦品牌</dd>
+            </dl>
+            <dl>
+                <dt><img src="/images/mc-gzh.jpg"</dt>
+                <dd>优悦官微</dd>
+            </dl>
+            <dl style="visibility:hidden;">
+                <dt><img src="/images/code-wx.png"</dt>
+                <dd>微信商城</dd>
+            </dl>
+            <div class="clear"></div>
+        </div>
+    </div>
 
     <footer class="footer">
         <p>copyright © 2014-2016 新疆优悦佳品饮料有限公司<br/>
-            010-61770976 &nbsp;</p>
+            <?php if(isset($info->phone)):echo $info->phone;else:echo '4008510958';endif;?> &nbsp;&nbsp;新ICP备17000073号 &nbsp;</p>
         <p class="xin"><a href="javascript:;"><img src="/images/xin.png"></a></p>
     </footer>
 </div>

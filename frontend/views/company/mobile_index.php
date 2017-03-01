@@ -112,7 +112,7 @@ use yii\helpers\Url;
 
     <footer class="footer">
         <p>copyright © 2014-2016 新疆优悦佳品饮料有限公司<br/>
-            010-61770976 &nbsp;</p>
+            <?php if(isset($info->phone)):echo $info->phone;else:echo '4008510958';endif;?> &nbsp;&nbsp;新ICP备17000073号 &nbsp;</p>
         <p class="xin"><a href="javascript:;"><img src="/images/xin.png"></a>
         </p>
     </footer>

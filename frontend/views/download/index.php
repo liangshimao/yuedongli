@@ -25,7 +25,7 @@ use yii\helpers\Url;
     <meta name="description" content="悦动力,优悦佳品,优越佳品,饮料">
     <link rel="shortcut icon" href="/images/youyue.ico">
     <link rel="shortcut icon" href="/images/youyue.ico">
-    <title>下载App-悦动力-新疆优悦佳品饮料有限公司</title>
+    <title>商城-新疆优悦佳品饮料有限公司</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <script src="/js/jquery-1.10.2.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -68,13 +68,13 @@ use yii\helpers\Url;
         <div class="cellphone"><img src="http://image.meicai.cn/meicaicn/wp-content/images/cellphone.png"></div>
         <div class="meicai-app">
             <dl class="icon-name">
-                <dt><img src="/images/logo.png"></dt>
-                <dd>优悦佳品App下载</dd>
+                <dt><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>"></dt>
+                <dd>优悦佳品官方微信</dd>
             </dl>
             <div class="code-list">
                 <dl class="bor-rit">
-<!--                    <dt><img src="http://image.meicai.cn/meicaicn/wp-content/images/ios-code.png"></dt>-->
-                    <dd>暂未开放<br/>敬请期待</dd>
+                    <dt><img src="/images/mc-gzh.jpg" width="80" height="80"></dt>
+                    <dd>扫一扫关注微信号</dd>
                 </dl>
             </div>
         </div>
@@ -86,7 +86,7 @@ use yii\helpers\Url;
         <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
         <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
-        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 010-61770976<br/>新ICP备17000073号</p>
+        <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 <?php if(isset($info->phone)):echo $info->phone;else:echo '4008510958';endif;?><br/>新ICP备17000073号</p>
         <p class="none"><a href="javascript:;" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
 </div>
