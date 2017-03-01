@@ -68,7 +68,7 @@ use yii\helpers\Url;
         <div class="cellphone"><img src="http://image.meicai.cn/meicaicn/wp-content/images/cellphone.png"></div>
         <div class="meicai-app">
             <dl class="icon-name">
-                <dt><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>"></dt>
+                <dt><img src="<?php if(empty($logo)):echo '/images/logo.png';else:echo $logo;endif;?>" width="180"></dt>
                 <dd>优悦佳品官方微信</dd>
             </dl>
             <div class="code-list">
