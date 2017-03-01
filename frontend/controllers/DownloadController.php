@@ -25,6 +25,7 @@ class DownloadController extends BaseController
         }else{
             return $this->renderPartial('index',[
                 'logo' => isset($logo->img_url)?$logo->img_url:'',
+                'info' => $info,
             ]);
         }
     }
