@@ -37,7 +37,7 @@ use yii\helpers\Url;
 
     <div class="home-page-one">
         <div class="app-down">
-            <div class="app-icon"><img src="/images/logo.png"></div>
+            <div class="app-icon"><img src="<?php if(empty($logo)):echo '/images/logo.png';else: echo $logo;endif;?>"></div>
 <!--            <div class="title"><img src="/images/home-text.png"></div>-->
         </div>
         <div class="down-arrow"><img src="/images/down-arrow.png"></div>
@@ -96,7 +96,7 @@ use yii\helpers\Url;
             </dl>
             <dl>
                 <dt><img src="/images/mc-gzh.jpg"</dt>
-                <dd>优悦官微</dd>
+                <dd>优悦商城</dd>
             </dl>
             <dl style="visibility:hidden;">
                 <dt><img src="/images/code-wx.png"</dt>
