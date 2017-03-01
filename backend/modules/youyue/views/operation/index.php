@@ -44,6 +44,6 @@ use backend\components\widgets\GoLinkPager;
     </tbody>
 </table>
 <div class="pull-right">
-    <?php echo GoLinkPager::widget(['pagination' => $pages,'go' => false]); ?>
+    <?php echo GoLinkPager::widget(['pagination' => $pages]); ?>
 </div>
 

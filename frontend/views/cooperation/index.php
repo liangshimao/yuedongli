@@ -95,20 +95,20 @@ use yii\helpers\Url;
     <div class="bent-list">
         <dl class="d-a">
             <dt><span><img src="/images/tel-icon.png"></span></dt>
-            <dd>热线电话<br/><?php if(empty($info->phone)):echo '010-61770976';else:echo $info->phone;endif;?></dd>
+            <dd><?php if(empty($info->phone)):echo '010-61770976';else:echo $info->phone;endif;?></dd>
         </dl>
         <dl class="d-b">
             <dt><span><img src="/images/address-icon.png"></span></dt>
-            <dd>公司地址<br/><?php if(empty($info->address)):echo '新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦';else:echo $info->address;endif;?></dd>
+            <dd><?php if(empty($info->address)):echo '新疆喀什地区喀什经济开发区深喀大道北侧喀什发展大厦';else:echo $info->address;endif;?></dd>
         </dl>
         <dl class="d-c">
             <dt><span><img src="/images/email-icon.png"></span></dt>
-            <dd>联系邮箱<br/><?php if(empty($info->email)):echo '13381469150@163.com';else:echo $info->email;endif;?></dd>
+            <dd><?php if(empty($info->email)):echo '13381469150@163.com';else:echo $info->email;endif;?></dd>
         </dl>
-<!--        <dl class="d-d">-->
-<!--            <dt><span><img src="/images/mc-gzh.png"></span></dt>-->
-<!--            <dd>关注官方公众号</dd>-->
-<!--        </dl>-->
+        <dl class="d-d">
+            <dt><span><img src="/images/mc-gzh.jpg" width="80" height="80"></span></dt>
+            <dd>商城二维码</dd>
+        </dl>
     </div>
 </div>
 
