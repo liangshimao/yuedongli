@@ -3,6 +3,9 @@
 use yii\helpers\Url;
 use common\components\Tools;
 ?>
+<script>
+    if(self.parent && self.parent!=self)self.parent.location.href=self.location.href;
+</script>
 <div class="topheader">
     <table border="0" width="100%">
         <tbody>
