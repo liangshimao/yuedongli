@@ -85,7 +85,7 @@ use yii\helpers\Url;
 
     
     <div class="home-page-four">
-        <img src="/images/page-four1.jpg">
+        <img src="/images/page-four2.jpg">
     </div>
 
     <div class="home-code-wit">
