@@ -33,10 +33,10 @@ em,i{font-style: normal; }
 .nav-width .logo{
 	float: left;
 	vertical-align: middle;
-	padding-top: 18px;
+	padding-top: 6px;
 }
 .nav-width .logo img{
-	width: 98px;
+	width: 130px;
 	vertical-align: middle;
 }
 .nav-width .nav-link{
@@ -360,10 +360,10 @@ em,i{font-style: normal; }
 .nav-width-bot .logo{
 	float: left;
 	vertical-align: middle;
-	padding-top: 18px;
+	padding-top: 10px;
 }
 .nav-width-bot .logo img{
-	width: 98px;
+	width: 130px;
 	vertical-align: middle;
 }
 .nav-width-bot .nav-link{
