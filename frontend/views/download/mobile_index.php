@@ -5,7 +5,7 @@ use yii\helpers\Url;
 <!DOCTYPE html>
 <html>
 <head>
-    <title>悦动力-新疆优悦佳品有限公司</title>
+    <title>新疆优悦佳品饮料有限公司官网</title>
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1,user-scalable=no">

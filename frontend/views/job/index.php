@@ -5,7 +5,7 @@ use yii\helpers\Url;
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>公司招聘-新疆优悦佳品饮料有限公司</title>
+    <title>新疆优悦佳品饮料有限公司官网</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta content="width=1200" name="viewport">
     <meta name="keywords" content="悦动力,优悦佳品,优越佳品,饮料" >
@@ -181,9 +181,9 @@ use yii\helpers\Url;
 </div>
 <div class="footer-pull">
     <div class="footer">
-        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;">公司资讯</a></p>
+        <p><span>关于</span><br/><a href="<?=Url::toRoute('/company/index')?>">优悦佳品</a><br/><a  href="javascript:;"  style="visibility: hidden;">公司资讯</a></p>
         <p><span>联系</span><br/><a href="<?=Url::toRoute('/job/index')?>">加入我们</a><br/><a href="<?=Url::toRoute('/cooperation/index')?>">合作共赢</a></p>
-        <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;">常见问题</a></p>
+        <p><span>帮助</span><br/><a href="javascript:;">新手指南</a><br/><a href="javascript:;"  style="visibility: hidden;">常见问题</a></p>
         <p><span>版权信息</span><br/>copyright © 2014-2016 新疆优悦佳品饮料有限公司 <?php if(isset($info->phone)):echo $info->phone;else:echo '4008510958';endif;?><br/>新ICP备17000073号</p>
         <p class="none"><a href="javascript:;" target="_blank"><img src="/images/cert.png"></a></p>
     </div>
